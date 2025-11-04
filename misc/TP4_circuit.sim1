@@ -1,12 +1,10 @@
 <circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
-<item itemtype="And Gate" CircId="And Gate-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,-48" rotation="0" hflip="1" vflip="1" label="And Gate-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="And Gate" CircId="And Gate-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-44" rotation="0" hflip="1" vflip="1" label="And Gate-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="And Gate" CircId="And Gate-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,-32" rotation="0" hflip="1" vflip="1" label="And Gate-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="And Gate" CircId="And Gate-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-28" rotation="0" hflip="1" vflip="1" label="And Gate-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="And Gate" CircId="And Gate-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,-16" rotation="0" hflip="1" vflip="1" label="And Gate-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
-
-<item itemtype="Or Gate" CircId="Or Gate-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-32" rotation="0" hflip="1" vflip="1" label="Or Gate-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="Or Gate" CircId="Or Gate-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-192,-32" rotation="0" hflip="1" vflip="1" label="Or Gate-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-332,-68" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
@@ -16,7 +14,7 @@
 
 <item itemtype="TextComponent" CircId="TextComponent-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,-60" rotation="0" hflip="1" vflip="1" label="TextComponent-38" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="A, B, Ci" />
 
-<item itemtype="TextComponent" CircId="TextComponent-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-172,-84" rotation="0" hflip="1" vflip="1" label="TextComponent-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="S, Co" />
+<item itemtype="TextComponent" CircId="TextComponent-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-160,-88" rotation="0" hflip="1" vflip="1" label="TextComponent-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="S, Co" />
 
 <item itemtype="TextComponent" CircId="TextComponent-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-392,-136" rotation="0" hflip="1" vflip="1" label="TextComponent-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="Full Adder (1bit)" />
 
@@ -24,7 +22,7 @@
 
 <item itemtype="Probe" CircId="Probe-42" mainComp="false" Show_id="false" Show_Val="true" Pos="-196,-80" rotation="-45" hflip="1" vflip="1" label="Probe-42" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Probe" CircId="Probe-43" mainComp="false" Show_id="false" Show_Val="true" Pos="-184,-48" rotation="-45" hflip="1" vflip="1" label="Probe-43" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-43" mainComp="false" Show_id="false" Show_Val="true" Pos="-160,-48" rotation="-45" hflip="1" vflip="1" label="Probe-43" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="Probe" CircId="Probe-44" mainComp="false" Show_id="false" Show_Val="true" Pos="-180,-140" rotation="-45" hflip="1" vflip="1" label="Probe-44" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
@@ -40,21 +38,21 @@
 
 <item itemtype="Xor Gate" CircId="Xor Gate-50" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-64" rotation="0" hflip="1" vflip="1" label="Xor Gate-50" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="TextComponent" CircId="TextComponent-54" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,40" rotation="0" hflip="1" vflip="1" label="TextComponent-54" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="Add Sub (3bit)" />
+<item itemtype="TextComponent" CircId="TextComponent-54" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,40" rotation="0" hflip="1" vflip="1" label="TextComponent-54" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="Add Sub (3bit)&#xa;Plus grand bit signé" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-55" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,120" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-55" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-55" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,120" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-55" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-56" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,104" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-56" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-56" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,104" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-56" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-57" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,88" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-57" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-57" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,88" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-57" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,168" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-58" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,168" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-58" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-59" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,152" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-59" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-59" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,152" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-59" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-60" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,184" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-60" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-60" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,184" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-60" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-61" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,216" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-61" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-61" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,216" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-61" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
 <item itemtype="FullAdder" CircId="FullAdder-62" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,96" rotation="0" hflip="1" vflip="1" label="FullAdder-62" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
@@ -62,65 +60,51 @@
 
 <item itemtype="FullAdder" CircId="FullAdder-64" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,160" rotation="0" hflip="1" vflip="1" label="FullAdder-64" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Probe" CircId="Probe-65" mainComp="false" Show_id="false" Show_Val="true" Pos="-240,112" rotation="-45" hflip="1" vflip="1" label="Probe-65" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-65" mainComp="false" Show_id="false" Show_Val="true" Pos="-104,148" rotation="-45" hflip="1" vflip="1" label="Probe-65" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Probe" CircId="Probe-66" mainComp="false" Show_id="false" Show_Val="true" Pos="-240,80" rotation="-45" hflip="1" vflip="1" label="Probe-66" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-66" mainComp="false" Show_id="false" Show_Val="true" Pos="-232,112" rotation="-45" hflip="1" vflip="1" label="Probe-66" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Probe" CircId="Probe-67" mainComp="false" Show_id="false" Show_Val="true" Pos="-240,144" rotation="-45" hflip="1" vflip="1" label="Probe-67" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-68" mainComp="false" Show_id="false" Show_Val="true" Pos="-100,84" rotation="-45" hflip="1" vflip="1" label="Probe-68" idLabPos="16,-16" labelrot="45" valLabPos="18.3836,-11.7474" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Probe" CircId="Probe-68" mainComp="false" Show_id="false" Show_Val="true" Pos="-68,92" rotation="-45" hflip="1" vflip="1" label="Probe-68" idLabPos="16,-16" labelrot="45" valLabPos="9.20489,-1.4561" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Xor Gate" CircId="Xor Gate-71" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,156" rotation="0" hflip="1" vflip="1" label="Xor Gate-71" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Xor Gate" CircId="Xor Gate-71" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,156" rotation="0" hflip="1" vflip="1" label="Xor Gate-71" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="TextComponent" CircId="TextComponent-75" mainComp="false" Show_id="false" Show_Val="false" Pos="-520,88" rotation="0" hflip="1" vflip="1" label="TextComponent-75" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="A[2,0]" />
 
-<item itemtype="TextComponent" CircId="TextComponent-75" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,88" rotation="0" hflip="1" vflip="1" label="TextComponent-75" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="A[2,0]" />
+<item itemtype="TextComponent" CircId="TextComponent-76" mainComp="false" Show_id="false" Show_Val="false" Pos="-520,164" rotation="0" hflip="1" vflip="1" label="TextComponent-76" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="B[2,0]" />
 
-<item itemtype="TextComponent" CircId="TextComponent-76" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,164" rotation="0" hflip="1" vflip="1" label="TextComponent-76" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="B[2,0]" />
+<item itemtype="Xor Gate" CircId="Xor Gate-79" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,172" rotation="0" hflip="1" vflip="1" label="Xor Gate-79" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Xor Gate" CircId="Xor Gate-79" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,172" rotation="0" hflip="1" vflip="1" label="Xor Gate-79" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="Xor Gate" CircId="Xor Gate-85" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,188" rotation="0" hflip="1" vflip="1" label="Xor Gate-85" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Xor Gate" CircId="Xor Gate-85" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,188" rotation="0" hflip="1" vflip="1" label="Xor Gate-85" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
-
-<item itemtype="TextComponent" CircId="TextComponent-93" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,204" rotation="0" hflip="1" vflip="1" label="TextComponent-93" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="sub" />
+<item itemtype="TextComponent" CircId="TextComponent-93" mainComp="false" Show_id="false" Show_Val="false" Pos="-520,204" rotation="0" hflip="1" vflip="1" label="TextComponent-93" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="sub" />
 
 <item itemtype="TextComponent" CircId="TextComponent-94" mainComp="false" Show_id="false" Show_Val="false" Pos="-284,48" rotation="0" hflip="1" vflip="1" label="TextComponent-94" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="S[2,0]" />
 
-<item itemtype="TextComponent" CircId="TextComponent-106" mainComp="false" Show_id="false" Show_Val="false" Pos="-112,64" rotation="0" hflip="1" vflip="1" label="TextComponent-106" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="ZF" />
+<item itemtype="TextComponent" CircId="TextComponent-106" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,56" rotation="0" hflip="1" vflip="1" label="TextComponent-106" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="ZF" />
 
-<item itemtype="Xor Gate" CircId="Xor Gate-107" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,128" rotation="0" hflip="1" vflip="1" label="Xor Gate-107" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="TextComponent" CircId="TextComponent-123" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,144" rotation="0" hflip="1" vflip="1" label="TextComponent-123" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="NF" />
 
-<item itemtype="And Gate" CircId="And Gate-105" mainComp="false" Show_id="false" Show_Val="false" Pos="-100,108" rotation="0" hflip="1" vflip="1" label="And Gate-105" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="4" Invert_Inputs="true" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="TextComponent" CircId="TextComponent-140" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,304" rotation="0" hflip="1" vflip="1" label="TextComponent-140" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="OF" />
 
-<item itemtype="Probe" CircId="Probe-116" mainComp="false" Show_id="false" Show_Val="true" Pos="-240,152" rotation="-45" hflip="1" vflip="1" label="Probe-116" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-159" mainComp="false" Show_id="false" Show_Val="true" Pos="-232,144" rotation="-45" hflip="1" vflip="1" label="Probe-159" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Buffer" CircId="Buffer-117" mainComp="false" Show_id="false" Show_Val="false" Pos="-180,188" rotation="0" hflip="1" vflip="1" label="Buffer-117" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="Probe" CircId="Probe-163" mainComp="false" Show_id="false" Show_Val="true" Pos="-228,80" rotation="-45" hflip="1" vflip="1" label="Probe-163" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="TextComponent" CircId="TextComponent-123" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,156" rotation="0" hflip="1" vflip="1" label="TextComponent-123" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="NF" />
+<item itemtype="Xor Gate" CircId="Xor Gate-184" mainComp="false" Show_id="false" Show_Val="false" Pos="-180,284" rotation="0" hflip="1" vflip="1" label="Xor Gate-184" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Probe" CircId="Probe-124" mainComp="false" Show_id="false" Show_Val="true" Pos="-108,196" rotation="-45" hflip="1" vflip="1" label="Probe-124" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-187" mainComp="false" Show_id="false" Show_Val="true" Pos="-148,268" rotation="-45" hflip="1" vflip="1" label="Probe-187" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="And Gate" CircId="And Gate-125" mainComp="false" Show_id="false" Show_Val="false" Pos="-140,192" rotation="0" hflip="1" vflip="1" label="And Gate-125" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="TextComponent" CircId="TextComponent-128" mainComp="false" Show_id="false" Show_Val="false" Pos="-80,224" rotation="0" hflip="1" vflip="1" label="TextComponent-128" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="CF" />
 
-<item itemtype="TextComponent" CircId="TextComponent-128" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,228" rotation="0" hflip="1" vflip="1" label="TextComponent-128" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="CF" />
+<item itemtype="Or Gate" CircId="Or Gate-189" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,100" rotation="0" hflip="1" vflip="1" label="Or Gate-189" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Probe" CircId="Probe-129" mainComp="false" Show_id="false" Show_Val="true" Pos="-108,176" rotation="-45" hflip="1" vflip="1" label="Probe-129" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-192" mainComp="false" Show_id="false" Show_Val="true" Pos="-244,252" rotation="-45" hflip="1" vflip="1" label="Probe-192" idLabPos="16,-16" labelrot="45" valLabPos="18.3836,-11.7474" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="And Gate" CircId="And Gate-130" mainComp="false" Show_id="false" Show_Val="false" Pos="-140,212" rotation="0" hflip="1" vflip="1" label="And Gate-130" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="Buffer" CircId="Buffer-193" mainComp="false" Show_id="false" Show_Val="false" Pos="-128,228" rotation="0" hflip="1" vflip="1" label="Buffer-193" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Buffer" CircId="Buffer-131" mainComp="false" Show_id="false" Show_Val="false" Pos="-180,216" rotation="0" hflip="1" vflip="1" label="Buffer-131" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="Probe" CircId="Probe-195" mainComp="false" Show_id="false" Show_Val="true" Pos="-96,212" rotation="-45" hflip="1" vflip="1" label="Probe-195" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Probe" CircId="Probe-135" mainComp="false" Show_id="false" Show_Val="true" Pos="-244,72" rotation="-45" hflip="1" vflip="1" label="Probe-135" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
-
-<item itemtype="Probe" CircId="Probe-141" mainComp="false" Show_id="false" Show_Val="true" Pos="-180,244" rotation="-45" hflip="1" vflip="1" label="Probe-141" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
-
-<item itemtype="TextComponent" CircId="TextComponent-140" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,264" rotation="0" hflip="1" vflip="1" label="TextComponent-140" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="OF" />
-
-<item itemtype="Xor Gate" CircId="Xor Gate-137" mainComp="false" Show_id="false" Show_Val="false" Pos="-212,260" rotation="0" hflip="1" vflip="1" label="Xor Gate-137" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
-
-<item itemtype="Node" CircId="Node-14" mainComp="false" Pos="-284,-52" />
-
-<item itemtype="Node" CircId="Node-15" mainComp="false" Pos="-292,-44" />
-
-<item itemtype="Node" CircId="Node-17" mainComp="false" Pos="-308,-36" />
+<item itemtype="Xor Gate" CircId="Xor Gate-204" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,164" rotation="0" hflip="1" vflip="1" label="Xor Gate-204" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
 <item itemtype="Node" CircId="Node-51" mainComp="false" Pos="-300,-36" />
 
@@ -128,43 +112,21 @@
 
 <item itemtype="Node" CircId="Node-53" mainComp="false" Pos="-292,-76" />
 
-<item itemtype="Node" CircId="Node-82" mainComp="false" Pos="-388,176" />
+<item itemtype="Node" CircId="Node-82" mainComp="false" Pos="-412,176" />
 
-<item itemtype="Node" CircId="Node-89" mainComp="false" Pos="-388,192" />
+<item itemtype="Node" CircId="Node-89" mainComp="false" Pos="-412,192" />
 
-<item itemtype="Node" CircId="Node-103" mainComp="false" Pos="-388,216" />
+<item itemtype="Node" CircId="Node-161" mainComp="false" Pos="-412,216" />
 
-<item itemtype="Node" CircId="Node-109" mainComp="false" Pos="-212,124" />
+<item itemtype="Node" CircId="Node-185" mainComp="false" Pos="-256,144" />
 
-<item itemtype="Node" CircId="Node-121" mainComp="false" Pos="-196,168" />
+<item itemtype="Node" CircId="Node-194" mainComp="false" Pos="-236,228" />
 
-<item itemtype="Node" CircId="Node-126" mainComp="false" Pos="-212,196" />
+<item itemtype="Node" CircId="Node-196" mainComp="false" Pos="-244,-72" />
 
-<item itemtype="Node" CircId="Node-133" mainComp="false" Pos="-212,216" />
+<item itemtype="Connector" uid="Connector-24" startpinid="And Gate-9-out" endpinid="Or Gate-22-in0" pointList="-212,-44,-208,-44,-208,-36" />
 
-<item itemtype="Node" CircId="Node-134" mainComp="false" Pos="-204,168" />
-
-<item itemtype="Node" CircId="Node-139" mainComp="false" Pos="-236,168" />
-
-<item itemtype="Node" CircId="Node-138" mainComp="false" Pos="-228,88" />
-
-<item itemtype="Connector" uid="Connector-12" startpinid="And Gate-10-in0" endpinid="Node-14-1" pointList="-276,-36,-284,-36,-284,-52" />
-
-<item itemtype="Connector" uid="Connector-13" startpinid="And Gate-9-in0" endpinid="Node-14-0" pointList="-276,-52,-284,-52" />
-
-<item itemtype="Connector" uid="Connector-15" startpinid="And Gate-11-in0" endpinid="Node-15-1" pointList="-276,-20,-292,-20,-292,-44" />
-
-<item itemtype="Connector" uid="Connector-16" startpinid="And Gate-9-in1" endpinid="Node-15-0" pointList="-276,-44,-292,-44" />
-
-<item itemtype="Connector" uid="Connector-21" startpinid="And Gate-11-in1" endpinid="Node-17-1" pointList="-276,-12,-308,-12,-308,-36" />
-
-<item itemtype="Connector" uid="Connector-24" startpinid="And Gate-9-out" endpinid="Or Gate-22-in0" pointList="-244,-48,-244,-40,-232,-40" />
-
-<item itemtype="Connector" uid="Connector-25" startpinid="And Gate-10-out" endpinid="Or Gate-22-in1" pointList="-244,-32,-232,-32" />
-
-<item itemtype="Connector" uid="Connector-26" startpinid="And Gate-11-out" endpinid="Or Gate-22-in2" pointList="-244,-16,-244,-24,-232,-24" />
-
-<item itemtype="Connector" uid="Connector-22" startpinid="Fixed Voltage-3-outnod" endpinid="Node-17-0" pointList="-316,-36,-308,-36" />
+<item itemtype="Connector" uid="Connector-25" startpinid="And Gate-10-out" endpinid="Or Gate-22-in1" pointList="-212,-28,-208,-28" />
 
 <item itemtype="Connector" uid="Connector-45" startpinid="Fixed Voltage-46-outnod" endpinid="FullAdder-41-in0" pointList="-244,-140,-236,-140" />
 
@@ -172,102 +134,82 @@
 
 <item itemtype="Connector" uid="Connector-48" startpinid="Fixed Voltage-48-outnod" endpinid="FullAdder-41-in2" pointList="-244,-108,-192,-108,-192,-140,-196,-140" />
 
-<item itemtype="Connector" uid="Connector-52" startpinid="Xor Gate-49-out" endpinid="Xor Gate-50-in0" pointList="-244,-80,-244,-68" />
-
 <item itemtype="Connector" uid="Connector-53" startpinid="Xor Gate-50-in1" endpinid="Node-51-1" pointList="-244,-60,-300,-60,-300,-36" />
 
-<item itemtype="Connector" uid="Connector-54" startpinid="Node-17-2" endpinid="Node-51-0" pointList="-308,-36,-300,-36" />
-
-<item itemtype="Connector" uid="Connector-55" startpinid="Node-51-2" endpinid="And Gate-10-in1" pointList="-300,-36,-300,-28,-276,-28" />
+<item itemtype="Connector" uid="Connector-55" startpinid="Node-51-2" endpinid="And Gate-10-in1" pointList="-300,-36,-300,-24,-244,-24" />
 
 <item itemtype="Connector" uid="Connector-56" startpinid="Node-52-1" endpinid="Xor Gate-49-in0" pointList="-284,-84,-276,-84" />
 
 <item itemtype="Connector" uid="Connector-57" startpinid="Fixed Voltage-1-outnod" endpinid="Node-52-0" pointList="-316,-68,-316,-84,-284,-84" />
 
-<item itemtype="Connector" uid="Connector-58" startpinid="Node-52-2" endpinid="Node-14-2" pointList="-284,-84,-284,-52" />
-
 <item itemtype="Connector" uid="Connector-59" startpinid="Node-53-1" endpinid="Xor Gate-49-in1" pointList="-292,-76,-276,-76" />
 
 <item itemtype="Connector" uid="Connector-60" startpinid="Fixed Voltage-2-outnod" endpinid="Node-53-0" pointList="-316,-52,-308,-52,-308,-76,-292,-76" />
 
-<item itemtype="Connector" uid="Connector-61" startpinid="Node-53-2" endpinid="Node-15-2" pointList="-292,-76,-292,-44" />
-
-<item itemtype="Connector" uid="Connector-62" startpinid="Fixed Voltage-57-outnod" endpinid="FullAdder-62-in0" pointList="-400,88,-296,88" />
-
 <item itemtype="Connector" uid="Connector-65" startpinid="FullAdder-62-out1" endpinid="FullAdder-63-in2" pointList="-256,104,-256,120" />
 
-<item itemtype="Connector" uid="Connector-66" startpinid="Fixed Voltage-56-outnod" endpinid="FullAdder-63-in0" pointList="-400,104,-320,104,-320,120,-296,120" />
+<item itemtype="Connector" uid="Connector-79" startpinid="Fixed Voltage-59-outnod" endpinid="Xor Gate-71-in0" pointList="-424,152,-404,152" />
 
-<item itemtype="Connector" uid="Connector-68" startpinid="FullAdder-63-out1" endpinid="FullAdder-64-in2" pointList="-256,136,-256,152" />
+<item itemtype="Connector" uid="Connector-80" startpinid="Xor Gate-71-out" endpinid="FullAdder-62-in1" pointList="-372,156,-316,156,-316,104,-296,104" />
 
-<item itemtype="Connector" uid="Connector-69" startpinid="Fixed Voltage-55-outnod" endpinid="FullAdder-64-in0" pointList="-400,120,-328,120,-328,152,-296,152" />
+<item itemtype="Connector" uid="Connector-87" startpinid="Fixed Voltage-58-outnod" endpinid="Xor Gate-79-in0" pointList="-424,168,-404,168" />
 
-<item itemtype="Connector" uid="Connector-79" startpinid="Fixed Voltage-59-outnod" endpinid="Xor Gate-71-in0" pointList="-400,152,-380,152" />
+<item itemtype="Connector" uid="Connector-88" startpinid="Xor Gate-79-out" endpinid="FullAdder-63-in1" pointList="-372,172,-308,172,-308,136,-296,136" />
 
-<item itemtype="Connector" uid="Connector-80" startpinid="Xor Gate-71-out" endpinid="FullAdder-62-in1" pointList="-348,156,-312,156,-312,104,-296,104" />
+<item itemtype="Connector" uid="Connector-90" startpinid="Node-82-1" endpinid="Xor Gate-79-in1" pointList="-412,176,-404,176" />
 
-<item itemtype="Connector" uid="Connector-87" startpinid="Fixed Voltage-58-outnod" endpinid="Xor Gate-79-in0" pointList="-400,168,-380,168" />
+<item itemtype="Connector" uid="Connector-92" startpinid="Node-82-2" endpinid="Xor Gate-71-in1" pointList="-412,176,-412,160,-404,160" />
 
-<item itemtype="Connector" uid="Connector-88" startpinid="Xor Gate-79-out" endpinid="FullAdder-63-in1" pointList="-348,172,-304,172,-304,136,-296,136" />
+<item itemtype="Connector" uid="Connector-105" startpinid="Fixed Voltage-60-outnod" endpinid="Xor Gate-85-in0" pointList="-424,184,-404,184" />
 
-<item itemtype="Connector" uid="Connector-90" startpinid="Node-82-1" endpinid="Xor Gate-79-in1" pointList="-388,176,-380,176" />
+<item itemtype="Connector" uid="Connector-107" startpinid="Node-89-1" endpinid="Xor Gate-85-in1" pointList="-412,192,-404,192" />
 
-<item itemtype="Connector" uid="Connector-92" startpinid="Node-82-2" endpinid="Xor Gate-71-in1" pointList="-388,176,-388,160,-380,160" />
+<item itemtype="Connector" uid="Connector-109" startpinid="Node-89-2" endpinid="Node-82-0" pointList="-412,192,-412,176" />
 
-<item itemtype="Connector" uid="Connector-105" startpinid="Fixed Voltage-60-outnod" endpinid="Xor Gate-85-in0" pointList="-400,184,-380,184" />
+<item itemtype="Connector" uid="Connector-123" startpinid="Xor Gate-85-out" endpinid="FullAdder-64-in1" pointList="-372,188,-296,188,-296,168" />
 
-<item itemtype="Connector" uid="Connector-107" startpinid="Node-89-1" endpinid="Xor Gate-85-in1" pointList="-388,192,-380,192" />
+<item itemtype="Connector" uid="Connector-242" startpinid="Fixed Voltage-56-outnod" endpinid="FullAdder-63-in0" pointList="-424,104,-324,104,-324,120,-296,120" />
 
-<item itemtype="Connector" uid="Connector-109" startpinid="Node-89-2" endpinid="Node-82-0" pointList="-388,192,-388,176" />
+<item itemtype="Connector" uid="Connector-243" startpinid="Fixed Voltage-55-outnod" endpinid="FullAdder-64-in0" pointList="-424,120,-332,120,-332,152,-296,152" />
 
-<item itemtype="Connector" uid="Connector-123" startpinid="Xor Gate-85-out" endpinid="FullAdder-64-in1" pointList="-348,188,-296,188,-296,168" />
+<item itemtype="Connector" uid="Connector-244" startpinid="Fixed Voltage-57-outnod" endpinid="FullAdder-62-in0" pointList="-424,88,-296,88" />
 
-<item itemtype="Connector" uid="Connector-126" startpinid="Fixed Voltage-61-outnod" endpinid="Node-103-0" pointList="-400,216,-388,216" />
+<item itemtype="Connector" uid="Connector-247" startpinid="Fixed Voltage-61-outnod" endpinid="Node-161-0" pointList="-424,216,-412,216" />
 
-<item itemtype="Connector" uid="Connector-127" startpinid="Node-103-2" endpinid="Node-89-0" pointList="-388,216,-384,216,-384,192,-388,192" />
+<item itemtype="Connector" uid="Connector-248" startpinid="Node-161-2" endpinid="Node-89-0" pointList="-412,216,-412,192" />
 
-<item itemtype="Connector" uid="Connector-138" startpinid="Node-109-1" endpinid="Xor Gate-107-in0" pointList="-212,124,-148,124" />
+<item itemtype="Connector" uid="Connector-294" startpinid="Xor Gate-184-in0" endpinid="Node-185-1" pointList="-196,280,-224,280,-224,144,-256,144" />
 
-<item itemtype="Connector" uid="Connector-132" startpinid="Xor Gate-107-out" endpinid="And Gate-105-in3" pointList="-116,128,-116,120" />
+<item itemtype="Connector" uid="Connector-295" startpinid="FullAdder-63-out1" endpinid="Node-185-0" pointList="-256,136,-256,144" />
 
-<item itemtype="Connector" uid="Connector-133" startpinid="FullAdder-64-out0" endpinid="And Gate-105-in2" pointList="-256,160,-196,160,-196,112,-116,112" />
+<item itemtype="Connector" uid="Connector-296" startpinid="Node-185-2" endpinid="FullAdder-64-in2" pointList="-256,144,-256,152" />
 
-<item itemtype="Connector" uid="Connector-129" startpinid="FullAdder-63-out0" endpinid="And Gate-105-in1" pointList="-256,128,-204,128,-204,104,-116,104" />
+<item itemtype="Connector" uid="Connector-317" startpinid="Node-161-1" endpinid="FullAdder-62-in2" pointList="-412,216,-244,216,-244,180,-212,180,-212,88,-256,88" />
 
-<item itemtype="Connector" uid="Connector-128" startpinid="FullAdder-62-out0" endpinid="And Gate-105-in0" pointList="-256,96,-116,96" />
+<item itemtype="Connector" uid="Connector-318" startpinid="FullAdder-62-out0" endpinid="Or Gate-189-in0" pointList="-256,96,-148,96" />
 
-<item itemtype="Connector" uid="Connector-166" startpinid="Node-121-1" endpinid="Buffer-117-in0" pointList="-196,168,-196,188" />
+<item itemtype="Connector" uid="Connector-319" startpinid="FullAdder-63-out0" endpinid="Or Gate-189-in1" pointList="-256,128,-244,128,-244,104,-148,104" />
 
-<item itemtype="Connector" uid="Connector-168" startpinid="Node-121-2" endpinid="Xor Gate-107-in1" pointList="-196,168,-148,168,-148,132" />
+<item itemtype="Connector" uid="Connector-323" startpinid="Node-194-1" endpinid="Buffer-193-in0" pointList="-236,228,-144,228" />
 
-<item itemtype="Connector" uid="Connector-173" startpinid="Buffer-117-out" endpinid="And Gate-125-in0" pointList="-164,188,-156,188" />
+<item itemtype="Connector" uid="Connector-324" startpinid="FullAdder-64-out1" endpinid="Node-194-0" pointList="-256,168,-236,168,-236,228" />
 
-<item itemtype="Connector" uid="Connector-176" startpinid="Node-126-2" endpinid="Node-109-0" pointList="-212,196,-212,124" />
+<item itemtype="Connector" uid="Connector-325" startpinid="Node-194-2" endpinid="Xor Gate-184-in1" pointList="-236,228,-236,288,-196,288" />
 
-<item itemtype="Connector" uid="Connector-174" startpinid="And Gate-125-in1" endpinid="Node-126-1" pointList="-156,196,-212,196" />
+<item itemtype="Connector" uid="Connector-326" startpinid="And Gate-9-in1" endpinid="Node-53-2" pointList="-244,-40,-292,-40,-292,-76" />
 
-<item itemtype="Connector" uid="Connector-182" startpinid="And Gate-130-in1" endpinid="Buffer-131-out" pointList="-156,216,-164,216" />
+<item itemtype="Connector" uid="Connector-327" startpinid="Fixed Voltage-3-outnod" endpinid="Node-51-0" pointList="-316,-36,-300,-36" />
 
-<item itemtype="Connector" uid="Connector-183" startpinid="Buffer-131-in0" endpinid="Node-133-1" pointList="-196,216,-212,216" />
+<item itemtype="Connector" uid="Connector-328" startpinid="And Gate-9-in0" endpinid="Node-52-2" pointList="-244,-48,-284,-48,-284,-84" />
 
-<item itemtype="Connector" uid="Connector-184" startpinid="Node-103-1" endpinid="Node-133-0" pointList="-388,216,-212,216" />
+<item itemtype="Connector" uid="Connector-330" startpinid="Node-196-1" endpinid="And Gate-10-in0" pointList="-244,-72,-252,-72,-252,-32,-244,-32" />
 
-<item itemtype="Connector" uid="Connector-185" startpinid="Node-133-2" endpinid="Node-126-0" pointList="-212,216,-212,196" />
+<item itemtype="Connector" uid="Connector-331" startpinid="Xor Gate-49-out" endpinid="Node-196-0" pointList="-244,-80,-244,-72" />
 
-<item itemtype="Connector" uid="Connector-186" startpinid="And Gate-130-in0" endpinid="Node-134-1" pointList="-156,208,-204,208,-204,168" />
+<item itemtype="Connector" uid="Connector-332" startpinid="Node-196-2" endpinid="Xor Gate-50-in0" pointList="-244,-72,-244,-68" />
 
-<item itemtype="Connector" uid="Connector-188" startpinid="Node-134-2" endpinid="Node-121-0" pointList="-204,168,-196,168" />
+<item itemtype="Connector" uid="Connector-364" startpinid="Xor Gate-204-in1" endpinid="Xor Gate-184-out" pointList="-152,168,-196,168,-196,268,-164,268,-164,284" />
 
-<item itemtype="Connector" uid="Connector-194" startpinid="Node-139-2" endpinid="Node-134-0" pointList="-236,168,-204,168" />
-
-<item itemtype="Connector" uid="Connector-193" startpinid="FullAdder-64-out1" endpinid="Node-139-0" pointList="-256,168,-236,168" />
-
-<item itemtype="Connector" uid="Connector-192" startpinid="Xor Gate-137-in1" endpinid="Node-139-1" pointList="-228,264,-236,264,-236,168" />
-
-<item itemtype="Connector" uid="Connector-191" startpinid="Node-138-2" endpinid="FullAdder-62-in2" pointList="-228,88,-256,88" />
-
-<item itemtype="Connector" uid="Connector-190" startpinid="Node-109-2" endpinid="Node-138-0" pointList="-212,124,-212,88,-228,88" />
-
-<item itemtype="Connector" uid="Connector-189" startpinid="Xor Gate-137-in0" endpinid="Node-138-1" pointList="-228,256,-228,88" />
+<item itemtype="Connector" uid="Connector-365" startpinid="FullAdder-64-out0" endpinid="Xor Gate-204-in0" pointList="-256,160,-152,160" />
 
 </circuit>

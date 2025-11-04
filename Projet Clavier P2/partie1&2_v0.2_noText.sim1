@@ -198,7 +198,7 @@
 
 <item itemtype="Buffer" CircId="Buffer-909" mainComp="false" Show_id="false" Show_Val="false" Pos="768,172" rotation="0" hflip="1" vflip="1" label="Buffer-909" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Subcircuit" CircId="74HC74-965" mainComp="false" Show_id="true" Show_Val="false" Pos="172,316" rotation="0" hflip="1" vflip="1" label="74LS74" idLabPos="4.98493,-21.994" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+<item itemtype="Subcircuit" CircId="74HC74-965" mainComp="false" Show_id="true" Show_Val="false" Pos="172,316" rotation="0" hflip="1" vflip="1" label="74LS74" idLabPos="11.2801,-27.0901" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
 
 <item itemtype="Rail" CircId="Rail-979" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="164,284" rotation="90" hflip="1" vflip="1" label="Rail-979" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
 
@@ -241,6 +241,10 @@
 <item itemtype="Ground" CircId="Ground-1059" mainComp="false" Show_id="false" Show_Val="false" Pos="844,204" rotation="0" hflip="1" vflip="1" label="Ground-1059" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="Buffer" CircId="Buffer-1067" mainComp="false" Show_id="false" Show_Val="false" Pos="148,260" rotation="90" hflip="1" vflip="1" label="Buffer-1067" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Lm555" CircId="Lm555-1068" mainComp="false" Show_id="false" Show_Val="false" Pos="4,220" rotation="0" hflip="1" vflip="1" label="Lm555-1068" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Probe" CircId="Probe-1069" mainComp="false" Show_id="false" Show_Val="true" Pos="532,404" rotation="-45" hflip="1" vflip="1" label="Probe-1069" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="Node" CircId="Node-136" mainComp="false" Pos="164,-132" />
 
