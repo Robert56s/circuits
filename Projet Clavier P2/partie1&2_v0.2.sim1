@@ -226,7 +226,7 @@
 
 <item itemtype="Subcircuit" CircId="74XX682-605" mainComp="false" Show_id="true" Show_Val="false" Pos="708,68" rotation="0" hflip="1" vflip="1" label="74XX682-605" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
 
-<item itemtype="Subcircuit" CircId="74XX93-646" mainComp="false" Show_id="true" Show_Val="false" Pos="808,132" rotation="0" hflip="1" vflip="1" label="74LS93" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+<item itemtype="Subcircuit" CircId="74XX93-646" mainComp="false" Show_id="true" Show_Val="false" Pos="808,132" rotation="0" hflip="1" vflip="1" label="74LS93" idLabPos="0.693451,-14.2212" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
 
 <item itemtype="Ground" CircId="Ground-655" mainComp="false" Show_id="false" Show_Val="false" Pos="792,196" rotation="0" hflip="1" vflip="1" label="Ground-655" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
@@ -282,11 +282,11 @@
 
 <item itemtype="TextComponent" CircId="TextComponent-991" mainComp="false" Show_id="false" Show_Val="false" Pos="520,124" rotation="0" hflip="1" vflip="1" label="TextComponent-991" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="11. Comparateur &#xa;(d/u partie 1 avec d/u partie 2)" />
 
-<item itemtype="TextComponent" CircId="TextComponent-993" mainComp="false" Show_id="false" Show_Val="false" Pos="804,96" rotation="0" hflip="1" vflip="1" label="TextComponent-993" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="Quand d/u (partie 1 + 1) &#x3D partie 2&#xa;-&#x3E clock nb bouteille (+1)" />
+<item itemtype="TextComponent" CircId="TextComponent-993" mainComp="false" Show_id="false" Show_Val="false" Pos="744,100" rotation="0" hflip="1" vflip="1" label="TextComponent-993" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="Quand d/u (partie 1 + 1) &#x3D partie 2&#xa;-&#x3E clock nb bouteille (+1)" />
 
 <item itemtype="TextComponent" CircId="TextComponent-994" mainComp="false" Show_id="false" Show_Val="false" Pos="540,472" rotation="0" hflip="1" vflip="1" label="TextComponent-994" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="13. Temporistation reset&#xa;Quand d/u (partie 1 + 1) &#x3D partie 2&#xa;ici periode ~&#x3D 5s&#xa;Pendant cette periode si #&#xa;-&#x3E reset total (logique # determine)" />
 
-<item itemtype="TextComponent" CircId="TextComponent-995" mainComp="false" Show_id="false" Show_Val="false" Pos="844,80" rotation="0" hflip="1" vflip="1" label="TextComponent-995" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="12. Compteur bouteilles" />
+<item itemtype="TextComponent" CircId="TextComponent-995" mainComp="false" Show_id="false" Show_Val="false" Pos="748,84" rotation="0" hflip="1" vflip="1" label="TextComponent-995" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="12. Compteur bouteilles" />
 
 <item itemtype="TextComponent" CircId="TextComponent-997" mainComp="false" Show_id="false" Show_Val="false" Pos="796,372" rotation="0" hflip="1" vflip="1" label="TextComponent-997" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="14. Affichage" />
 
@@ -339,6 +339,8 @@
 <item itemtype="Ground" CircId="Ground-1059" mainComp="false" Show_id="false" Show_Val="false" Pos="844,204" rotation="0" hflip="1" vflip="1" label="Ground-1059" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="Buffer" CircId="Buffer-1067" mainComp="false" Show_id="false" Show_Val="false" Pos="148,260" rotation="90" hflip="1" vflip="1" label="Buffer-1067" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-1068" mainComp="false" Show_id="false" Show_Val="false" Pos="884,112" rotation="0" hflip="1" vflip="1" label="And Gate-1068" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="4" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
 <item itemtype="Node" CircId="Node-136" mainComp="false" Pos="164,-132" />
 
@@ -512,8 +514,6 @@
 
 <item itemtype="Node" CircId="Node-855" mainComp="false" Pos="236,536" />
 
-<item itemtype="Node" CircId="Node-858" mainComp="false" Pos="796,140" />
-
 <item itemtype="Node" CircId="Node-978" mainComp="false" Pos="228,340" />
 
 <item itemtype="Node" CircId="Node-962" mainComp="false" Pos="28,324" />
@@ -573,6 +573,16 @@
 <item itemtype="Node" CircId="Node-1058" mainComp="false" Pos="468,564" />
 
 <item itemtype="Node" CircId="Node-933" mainComp="false" Pos="456,48" />
+
+<item itemtype="Node" CircId="Node-1069" mainComp="false" Pos="852,140" />
+
+<item itemtype="Node" CircId="Node-1070" mainComp="false" Pos="860,148" />
+
+<item itemtype="Node" CircId="Node-1071" mainComp="false" Pos="868,156" />
+
+<item itemtype="Node" CircId="Node-1072" mainComp="false" Pos="788,172" />
+
+<item itemtype="Node" CircId="Node-1073" mainComp="false" Pos="796,140" />
 
 <item itemtype="Connector" uid="Connector-303" startpinid="Node-156-2" endpinid="Node-150-0" pointList="76,-28,76,-76" />
 
@@ -1114,12 +1124,6 @@
 
 <item itemtype="Connector" uid="Connector-1475" startpinid="Node-623-2" endpinid="74XX246-385-A" pointList="484,-112,536,-112" />
 
-<item itemtype="Connector" uid="Connector-1576" startpinid="74XX93-646-Q1" endpinid="74XX246-513-A" pointList="848,148,852,148,852,140,876,140" />
-
-<item itemtype="Connector" uid="Connector-1577" startpinid="74XX93-646-Q2" endpinid="74XX246-513-B" pointList="848,156,860,156,860,148,876,148" />
-
-<item itemtype="Connector" uid="Connector-1578" startpinid="74XX93-646-Q3" endpinid="74XX246-513-C" pointList="848,164,868,164,868,156,876,156" />
-
 <item itemtype="Connector" uid="Connector-1591" startpinid="Ground-655-Gnd" endpinid="74XX93-646-CP0" pointList="792,180,792,164,800,164" />
 
 <item itemtype="Connector" uid="Connector-1598" startpinid="Node-523-1" endpinid="74XX246-511-BI/RBO" pointList="768,264,768,256,784,256" />
@@ -1198,13 +1202,7 @@
 
 <item itemtype="Connector" uid="Connector-1997" startpinid="Node-848-2" endpinid="LM555-839-Vcc" pointList="236,432,236,464" />
 
-<item itemtype="Connector" uid="Connector-2001" startpinid="74XX93-646-MR2" endpinid="Node-858-0" pointList="800,148,796,148,796,140" />
-
-<item itemtype="Connector" uid="Connector-2002" startpinid="Node-858-2" endpinid="74XX93-646-MR1" pointList="796,140,800,140" />
-
 <item itemtype="Connector" uid="Connector-2017" startpinid="LM555-839-Out" endpinid="74HC192-529-CPu" pointList="260,496,364,496,364,272,456,272" />
-
-<item itemtype="Connector" uid="Connector-2108" startpinid="Buffer-909-out" endpinid="74XX93-646-CP1" pointList="784,172,800,172" />
 
 <item itemtype="Connector" uid="Connector-2274" startpinid="74HC74-965-D1" endpinid="Node-978-0" pointList="164,340,156,340,156,308,228,308,228,340" />
 
@@ -1213,8 +1211,6 @@
 <item itemtype="Connector" uid="Connector-2278" startpinid="Rail-979-outnod" endpinid="74HC74-965-!SD1" pointList="164,300,164,324" />
 
 <item itemtype="Connector" uid="Connector-2291" startpinid="Node-978-1" endpinid="Buffer-983-in0" pointList="228,340,228,356,252,356" />
-
-<item itemtype="Connector" uid="Connector-2292" startpinid="Buffer-983-out" endpinid="Node-858-1" pointList="284,356,348,356,348,380,620,380,620,268,764,268,764,140,796,140" />
 
 <item itemtype="Connector" uid="Connector-2293" startpinid="LM555-839-Rst" endpinid="Buffer-980-out" pointList="260,480,292,480,292,372,284,372" />
 
@@ -1399,5 +1395,35 @@
 <item itemtype="Connector" uid="Connector-2485" startpinid="74HC74-965-!RD1" endpinid="Buffer-1067-out" pointList="164,348,148,348,148,276" />
 
 <item itemtype="Connector" uid="Connector-2486" startpinid="Buffer-1067-in0" endpinid="Node-933-1" pointList="148,244,148,232,260,232,260,212,456,212,456,48" />
+
+<item itemtype="Connector" uid="Connector-2488" startpinid="Node-1069-1" endpinid="And Gate-1068-in1" pointList="852,140,852,108,868,108" />
+
+<item itemtype="Connector" uid="Connector-2489" startpinid="74XX93-646-Q1" endpinid="Node-1069-0" pointList="848,148,852,148,852,140" />
+
+<item itemtype="Connector" uid="Connector-2490" startpinid="Node-1069-2" endpinid="74XX246-513-A" pointList="852,140,876,140" />
+
+<item itemtype="Connector" uid="Connector-2491" startpinid="Node-1070-1" endpinid="And Gate-1068-in2" pointList="860,148,860,116,868,116" />
+
+<item itemtype="Connector" uid="Connector-2492" startpinid="74XX93-646-Q2" endpinid="Node-1070-0" pointList="848,156,860,156,860,148" />
+
+<item itemtype="Connector" uid="Connector-2493" startpinid="Node-1070-2" endpinid="74XX246-513-B" pointList="860,148,876,148" />
+
+<item itemtype="Connector" uid="Connector-2494" startpinid="Node-1071-1" endpinid="And Gate-1068-in3" pointList="868,156,868,124" />
+
+<item itemtype="Connector" uid="Connector-2495" startpinid="74XX93-646-Q3" endpinid="Node-1071-0" pointList="848,164,868,164,868,156" />
+
+<item itemtype="Connector" uid="Connector-2496" startpinid="Node-1071-2" endpinid="74XX246-513-C" pointList="868,156,876,156" />
+
+<item itemtype="Connector" uid="Connector-2497" startpinid="And Gate-1068-in0" endpinid="Node-1072-1" pointList="868,100,788,100,788,172" />
+
+<item itemtype="Connector" uid="Connector-2498" startpinid="Buffer-909-out" endpinid="Node-1072-0" pointList="784,172,788,172" />
+
+<item itemtype="Connector" uid="Connector-2499" startpinid="Node-1072-2" endpinid="74XX93-646-CP1" pointList="788,172,800,172" />
+
+<item itemtype="Connector" uid="Connector-2500" startpinid="And Gate-1068-out" endpinid="Node-1073-1" pointList="900,112,900,96,796,96,796,140" />
+
+<item itemtype="Connector" uid="Connector-2501" startpinid="74XX93-646-MR2" endpinid="Node-1073-0" pointList="800,148,796,148,796,140" />
+
+<item itemtype="Connector" uid="Connector-2502" startpinid="Node-1073-2" endpinid="74XX93-646-MR1" pointList="796,140,800,140" />
 
 </circuit>

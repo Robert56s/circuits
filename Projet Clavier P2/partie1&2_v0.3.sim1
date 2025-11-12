@@ -246,6 +246,10 @@
 
 <item itemtype="And Gate" CircId="And Gate-1081" mainComp="false" Show_id="false" Show_Val="false" Pos="884,104" rotation="0" hflip="1" vflip="1" label="And Gate-1081" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="4" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
+<item itemtype="Subcircuit" CircId="Uno-1097" mainComp="false" Show_id="true" Show_Val="false" Pos="-460,8" rotation="0" hflip="1" vflip="1" label="Uno-1097" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
 <item itemtype="Node" CircId="Node-136" mainComp="false" Pos="164,-132" />
 
 <item itemtype="Node" CircId="Node-147" mainComp="false" Pos="164,-84" />
@@ -1328,6 +1332,6 @@
 
 <item itemtype="Connector" uid="Connector-2538" startpinid="Node-1094-2" endpinid="74XX93-646-MR2" pointList="780,140,780,148,800,148" />
 
-<item itemtype="Connector" uid="Connector-2549" startpinid="And Gate-1081-out" endpinid="Node-1094-0" pointList="900,104,900,76,844,76,844,96,780,96,780,128,780,140" />
+<item itemtype="Connector" uid="Connector-2549" startpinid="And Gate-1081-out" endpinid="Node-1094-0" pointList="900,104,900,76,844,76,844,96,780,96,780,140" />
 
 </circuit>
