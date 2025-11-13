@@ -254,7 +254,7 @@
 
 <item itemtype="Resistor" CircId="Resistor-846" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="188,480" rotation="90" hflip="1" vflip="1" label="Resistor-846" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
 
-<item itemtype="Capacitor" CircId="Capacitor-849" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="204,544" rotation="0" hflip="1" vflip="1" label="Capacitor-849" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="47 µF" Resistance="1 µΩ" InitVolt="0 V" ReaStep="0 ns" />
+<item itemtype="Capacitor" CircId="Capacitor-849" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="204,544" rotation="0" hflip="1" vflip="1" label="Capacitor-849" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="4.7 µF" Resistance="1 µΩ" InitVolt="0 V" ReaStep="0 ns" />
 
 <item itemtype="Capacitor" CircId="Capacitor-854" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="260,536" rotation="0" hflip="1" vflip="1" label="Capacitor-854" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 nF" Resistance="1 µΩ" InitVolt="0 V" ReaStep="0 ns" />
 
