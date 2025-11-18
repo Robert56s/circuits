@@ -114,29 +114,13 @@
 
 <item itemtype="And Gate" CircId="And Gate-1112" mainComp="false" Show_id="false" Show_Val="false" Pos="768,172" rotation="0" hflip="1" vflip="1" label="And Gate-1112" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Probe" CircId="Probe-1121" mainComp="false" Show_id="false" Show_Val="true" Pos="608,52" rotation="-45" hflip="1" vflip="1" label="Probe-1121" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-1121" mainComp="false" Show_id="false" Show_Val="true" Pos="640,52" rotation="-45" hflip="1" vflip="1" label="Probe-1121" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="Or Gate" CircId="Or Gate-1129" mainComp="false" Show_id="false" Show_Val="false" Pos="968,100" rotation="0" hflip="1" vflip="1" label="Or Gate-1129" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
 <item itemtype="Buffer" CircId="Buffer-1130" mainComp="false" Show_id="false" Show_Val="false" Pos="924,96" rotation="0" hflip="1" vflip="1" label="Buffer-1130" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="TextComponent" CircId="TextComponent-1136" mainComp="false" Show_id="false" Show_Val="false" Pos="368,-188" rotation="0" hflip="1" vflip="1" label="TextComponent-1136" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="1.1 Arduino (expliquer signaux)" />
-
-<item itemtype="TextComponent" CircId="TextComponent-1137" mainComp="false" Show_id="false" Show_Val="false" Pos="644,-176" rotation="0" hflip="1" vflip="1" label="TextComponent-1137" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="1.2 Decodage diziane et unite &#xa; -&#x3E 7 segment " />
-
-<item itemtype="TextComponent" CircId="TextComponent-1138" mainComp="false" Show_id="false" Show_Val="false" Pos="464,180" rotation="0" hflip="1" vflip="1" label="TextComponent-1138" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="2.1 Compteur binaire Nb pilule" />
-
-<item itemtype="TextComponent" CircId="TextComponent-1139" mainComp="false" Show_id="false" Show_Val="false" Pos="676,44" rotation="0" hflip="1" vflip="1" label="TextComponent-1139" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="2.2 Comparateur dizaine / unite" />
-
-<item itemtype="TextComponent" CircId="TextComponent-1140" mainComp="false" Show_id="false" Show_Val="false" Pos="468,396" rotation="0" hflip="1" vflip="1" label="TextComponent-1140" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="2.3 Temporisation & +1 nb boite&#xa;(quand unite&dizaine &#x3E Nb pilule)" />
-
-<item itemtype="TextComponent" CircId="TextComponent-1141" mainComp="false" Show_id="false" Show_Val="false" Pos="848,60" rotation="0" hflip="1" vflip="1" label="TextComponent-1141" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="2.4 Compteur Nb boite" />
-
-<item itemtype="TextComponent" CircId="TextComponent-1143" mainComp="false" Show_id="false" Show_Val="false" Pos="520,460" rotation="0" hflip="1" vflip="1" label="TextComponent-1143" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="555 monostable" />
-
-<item itemtype="TextComponent" CircId="TextComponent-1144" mainComp="false" Show_id="false" Show_Val="false" Pos="380,232" rotation="0" hflip="1" vflip="1" label="TextComponent-1144" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="555 astable" />
-
-<item itemtype="TextComponent" CircId="TextComponent-1145" mainComp="false" Show_id="false" Show_Val="false" Pos="988,228" rotation="0" hflip="1" vflip="1" label="TextComponent-1145" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="-1 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="2.5 Decodage pilule, nb boite&#xa; -&#x3E 7 segment" />
+<item itemtype="Probe" CircId="Probe-1135" mainComp="false" Show_id="false" Show_Val="true" Pos="960,60" rotation="-45" hflip="1" vflip="1" label="Probe-1135" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="Node" CircId="Node-518" mainComp="false" Pos="860,188" />
 
