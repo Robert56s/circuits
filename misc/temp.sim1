@@ -1,0 +1,41 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="FlipFlopRS" CircId="FlipFlopRS-37" mainComp="false" Show_id="false" Show_Val="false" Pos="256,-100" rotation="0" hflip="1" vflip="1" label="FlipFlopRS-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="FlipFlopRS" CircId="FlipFlopRS-38" mainComp="false" Show_id="false" Show_Val="false" Pos="256,-52" rotation="0" hflip="1" vflip="1" label="FlipFlopRS-38" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Push" CircId="Push-39" mainComp="false" Show_id="false" Show_Val="false" Pos="124,-68" rotation="0" hflip="1" vflip="1" label="Push-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Probe" CircId="Probe-41" mainComp="false" Show_id="false" Show_Val="true" Pos="296,-124" rotation="-45" hflip="1" vflip="1" label="Probe-41" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-42" mainComp="false" Show_id="false" Show_Val="true" Pos="296,-76" rotation="-45" hflip="1" vflip="1" label="Probe-42" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-49" mainComp="false" Show_id="false" Show_Val="false" Pos="156,-20" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-49" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-50" mainComp="false" Show_id="false" Show_Val="false" Pos="148,-96" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-50" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-51" mainComp="false" Show_id="false" Show_Val="false" Pos="152,-40" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-51" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Probe" CircId="Probe-52" mainComp="false" Show_id="false" Show_Val="true" Pos="296,-108" rotation="-45" hflip="1" vflip="1" label="Probe-52" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-53" mainComp="false" Show_id="false" Show_Val="true" Pos="296,-60" rotation="-45" hflip="1" vflip="1" label="Probe-53" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-48" mainComp="false" Show_id="false" Show_Val="false" Pos="152,-116" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-48" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Node" CircId="Node-40" mainComp="false" Pos="216,-68" />
+
+<item itemtype="Connector" uid="Connector-196" startpinid="Node-40-1" endpinid="FlipFlopRS-38-in2" pointList="216,-68,216,-52,240,-52" />
+
+<item itemtype="Connector" uid="Connector-197" startpinid="Push-39-switch0pinN" endpinid="Node-40-0" pointList="140,-68,216,-68" />
+
+<item itemtype="Connector" uid="Connector-219" startpinid="FlipFlopRS-38-in0" endpinid="Fixed Voltage-49-outnod" pointList="240,-60,172,-60,172,-20" />
+
+<item itemtype="Connector" uid="Connector-221" startpinid="Fixed Voltage-50-outnod" endpinid="FlipFlopRS-37-in1" pointList="164,-96,240,-96,240,-92" />
+
+<item itemtype="Connector" uid="Connector-222" startpinid="Fixed Voltage-51-outnod" endpinid="FlipFlopRS-38-in1" pointList="168,-40,240,-40,240,-44" />
+
+<item itemtype="Connector" uid="Connector-218" startpinid="FlipFlopRS-37-in0" endpinid="Fixed Voltage-48-outnod" pointList="240,-108,168,-108,168,-116" />
+
+<item itemtype="Connector" uid="Connector-198" startpinid="Node-40-2" endpinid="FlipFlopRS-37-in2" pointList="216,-68,216,-100,240,-100" />
+
+</circuit>
