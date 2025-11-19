@@ -104,8 +104,6 @@
 
 <item itemtype="Ground" CircId="Ground-1059" mainComp="false" Show_id="false" Show_Val="false" Pos="844,204" rotation="0" hflip="1" vflip="1" label="Ground-1059" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="And Gate" CircId="And Gate-1081" mainComp="false" Show_id="false" Show_Val="false" Pos="884,104" rotation="0" hflip="1" vflip="1" label="And Gate-1081" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="4" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
-
 <item itemtype="Subcircuit" CircId="Uno-1097" mainComp="false" Show_id="true" Show_Val="false" Pos="308,-160" rotation="360" hflip="1" vflip="1" label="Uno-1097" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
 <mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="arduino_claiver.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
 </item>
@@ -116,11 +114,15 @@
 
 <item itemtype="Probe" CircId="Probe-1121" mainComp="false" Show_id="false" Show_Val="true" Pos="640,52" rotation="-45" hflip="1" vflip="1" label="Probe-1121" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Or Gate" CircId="Or Gate-1129" mainComp="false" Show_id="false" Show_Val="false" Pos="968,100" rotation="0" hflip="1" vflip="1" label="Or Gate-1129" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
-
-<item itemtype="Buffer" CircId="Buffer-1130" mainComp="false" Show_id="false" Show_Val="false" Pos="924,96" rotation="0" hflip="1" vflip="1" label="Buffer-1130" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
-
 <item itemtype="Probe" CircId="Probe-1135" mainComp="false" Show_id="false" Show_Val="true" Pos="960,60" rotation="-45" hflip="1" vflip="1" label="Probe-1135" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="And Gate" CircId="And Gate-1136" mainComp="false" Show_id="false" Show_Val="false" Pos="1028,96" rotation="0" hflip="1" vflip="1" label="And Gate-1136" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-1144" mainComp="false" Show_id="false" Show_Val="false" Pos="884,12" rotation="0" hflip="1" vflip="1" label="And Gate-1144" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-1145" mainComp="false" Show_id="false" Show_Val="false" Pos="884,32" rotation="0" hflip="1" vflip="1" label="And Gate-1145" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-1146" mainComp="false" Show_id="false" Show_Val="false" Pos="916,20" rotation="0" hflip="1" vflip="1" label="And Gate-1146" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
 <item itemtype="Node" CircId="Node-518" mainComp="false" Pos="860,188" />
 
@@ -608,25 +610,17 @@
 
 <item itemtype="Connector" uid="Connector-2471" startpinid="Ground-1059-Gnd" endpinid="74XX246-513-D" pointList="844,188,844,168,876,168,876,164" />
 
-<item itemtype="Connector" uid="Connector-2508" startpinid="Node-1082-1" endpinid="And Gate-1081-in1" pointList="852,140,852,100,868,100" />
-
 <item itemtype="Connector" uid="Connector-2509" startpinid="74XX93-646-Q1" endpinid="Node-1082-0" pointList="848,148,852,148,852,140" />
 
 <item itemtype="Connector" uid="Connector-2510" startpinid="Node-1082-2" endpinid="74XX246-513-A" pointList="852,140,876,140" />
-
-<item itemtype="Connector" uid="Connector-2511" startpinid="Node-1083-1" endpinid="And Gate-1081-in2" pointList="860,148,860,108,868,108" />
 
 <item itemtype="Connector" uid="Connector-2512" startpinid="74XX93-646-Q2" endpinid="Node-1083-0" pointList="848,156,860,156,860,148" />
 
 <item itemtype="Connector" uid="Connector-2513" startpinid="Node-1083-2" endpinid="74XX246-513-B" pointList="860,148,876,148" />
 
-<item itemtype="Connector" uid="Connector-2514" startpinid="Node-1084-1" endpinid="And Gate-1081-in3" pointList="868,156,868,116" />
-
 <item itemtype="Connector" uid="Connector-2515" startpinid="74XX93-646-Q3" endpinid="Node-1084-0" pointList="848,164,868,164,868,156" />
 
 <item itemtype="Connector" uid="Connector-2516" startpinid="Node-1084-2" endpinid="74XX246-513-C" pointList="868,156,876,156" />
-
-<item itemtype="Connector" uid="Connector-2517" startpinid="Node-1085-1" endpinid="And Gate-1081-in0" pointList="788,172,788,92,868,92" />
 
 <item itemtype="Connector" uid="Connector-2519" startpinid="Node-1085-2" endpinid="74XX93-646-CP1" pointList="788,172,800,172" />
 
@@ -712,20 +706,30 @@
 
 <item itemtype="Connector" uid="Connector-2710" startpinid="LM555-839-Rst" endpinid="Node-1115-2" pointList="424,248,456,248,456,152,304,152,304,68" />
 
-<item itemtype="Connector" uid="Connector-2739" startpinid="And Gate-1081-out" endpinid="Or Gate-1129-in1" pointList="900,104,952,104" />
-
-<item itemtype="Connector" uid="Connector-2740" startpinid="Buffer-1130-out" endpinid="Or Gate-1129-in0" pointList="940,96,952,96" />
-
-<item itemtype="Connector" uid="Connector-2741" startpinid="Or Gate-1129-out" endpinid="Node-1131-1" pointList="984,100,984,76,780,76,780,140,796,140" />
-
 <item itemtype="Connector" uid="Connector-2742" startpinid="74XX93-646-MR2" endpinid="Node-1131-0" pointList="800,148,796,148,796,140" />
 
 <item itemtype="Connector" uid="Connector-2743" startpinid="Node-1131-2" endpinid="74XX93-646-MR1" pointList="796,140,800,140" />
 
-<item itemtype="Connector" uid="Connector-2752" startpinid="Node-1134-1" endpinid="Buffer-1130-in0" pointList="752,84,908,84,908,96" />
-
 <item itemtype="Connector" uid="Connector-2753" startpinid="And Gate-1112-in0" endpinid="Node-1134-0" pointList="752,168,752,84" />
 
 <item itemtype="Connector" uid="Connector-2754" startpinid="Node-1134-2" endpinid="Node-1115-1" pointList="752,84,752,68,304,68" />
+
+<item itemtype="Connector" uid="Connector-2779" startpinid="Node-1134-1" endpinid="And Gate-1136-in0" pointList="752,84,944,84,944,92,1012,92" />
+
+<item itemtype="Connector" uid="Connector-2781" startpinid="And Gate-1136-out" endpinid="Node-1131-1" pointList="1044,96,1044,76,780,76,780,140,796,140" />
+
+<item itemtype="Connector" uid="Connector-2782" startpinid="And Gate-1144-out" endpinid="And Gate-1146-in0" pointList="900,12,900,16" />
+
+<item itemtype="Connector" uid="Connector-2783" startpinid="And Gate-1145-out" endpinid="And Gate-1146-in1" pointList="900,32,900,24" />
+
+<item itemtype="Connector" uid="Connector-2808" startpinid="Node-1085-1" endpinid="And Gate-1144-in0" pointList="788,172,788,92,844,92,844,8,868,8" />
+
+<item itemtype="Connector" uid="Connector-2809" startpinid="Node-1082-1" endpinid="And Gate-1144-in1" pointList="852,140,852,16,868,16" />
+
+<item itemtype="Connector" uid="Connector-2810" startpinid="Node-1083-1" endpinid="And Gate-1145-in0" pointList="860,148,860,28,868,28" />
+
+<item itemtype="Connector" uid="Connector-2811" startpinid="Node-1084-1" endpinid="And Gate-1145-in1" pointList="868,156,868,36" />
+
+<item itemtype="Connector" uid="Connector-2812" startpinid="And Gate-1146-out" endpinid="And Gate-1136-in1" pointList="932,20,932,104,940,104,940,100,1012,100" />
 
 </circuit>
