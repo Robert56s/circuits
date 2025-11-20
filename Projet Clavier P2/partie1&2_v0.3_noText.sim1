@@ -124,6 +124,8 @@
 
 <item itemtype="And Gate" CircId="And Gate-1211" mainComp="false" Show_id="false" Show_Val="false" Pos="960,108" rotation="0" hflip="1" vflip="1" label="And Gate-1211" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
+<item itemtype="And Gate" CircId="And Gate-1216" mainComp="false" Show_id="false" Show_Val="false" Pos="456,180" rotation="90" hflip="1" vflip="1" label="And Gate-1216" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
 <item itemtype="Node" CircId="Node-518" mainComp="false" Pos="860,188" />
 
 <item itemtype="Node" CircId="Node-519" mainComp="false" Pos="860,180" />
@@ -237,6 +239,8 @@
 <item itemtype="Node" CircId="Node-1214" mainComp="false" Pos="860,148" />
 
 <item itemtype="Node" CircId="Node-1215" mainComp="false" Pos="868,156" />
+
+<item itemtype="Node" CircId="Node-1221" mainComp="false" Pos="452,152" />
 
 <item itemtype="Connector" uid="Connector-954" startpinid="Seven Segment-271-pin_commona" endpinid="Rail-373-outnod" pointList="776,20,776,24" />
 
@@ -686,8 +690,6 @@
 
 <item itemtype="Connector" uid="Connector-2702" startpinid="Uno-1097-13" endpinid="Node-1115-0" pointList="316,-32,304,-32,304,68" />
 
-<item itemtype="Connector" uid="Connector-2710" startpinid="LM555-839-Rst" endpinid="Node-1115-2" pointList="424,248,456,248,456,152,304,152,304,68" />
-
 <item itemtype="Connector" uid="Connector-2906" startpinid="And Gate-1170-out" endpinid="Node-1179-1" pointList="1040,84,1040,60,796,60,796,140" />
 
 <item itemtype="Connector" uid="Connector-2907" startpinid="74XX93-646-MR2" endpinid="Node-1179-0" pointList="800,148,796,148,796,140" />
@@ -729,5 +731,13 @@
 <item itemtype="Connector" uid="Connector-2980" startpinid="74XX93-646-Q3" endpinid="Node-1215-0" pointList="848,164,868,164,868,156" />
 
 <item itemtype="Connector" uid="Connector-2981" startpinid="Node-1215-2" endpinid="74XX246-513-C" pointList="868,156,876,156" />
+
+<item itemtype="Connector" uid="Connector-2990" startpinid="LM555-839-Rst" endpinid="And Gate-1216-out" pointList="424,248,456,248,456,196" />
+
+<item itemtype="Connector" uid="Connector-2995" startpinid="Node-1221-1" endpinid="And Gate-1216-in1" pointList="452,152,452,164" />
+
+<item itemtype="Connector" uid="Connector-2997" startpinid="Node-1221-2" endpinid="And Gate-1216-in0" pointList="452,152,460,152,460,164" />
+
+<item itemtype="Connector" uid="Connector-2999" startpinid="Node-1221-0" endpinid="Node-1115-2" pointList="452,152,304,152,304,68" />
 
 </circuit>
