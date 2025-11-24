@@ -28,9 +28,9 @@
 
 <item itemtype="Probe" CircId="Probe-26" mainComp="false" Show_id="false" Show_Val="true" Pos="76,-224" rotation="-45" hflip="1" vflip="1" label="Probe-26" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-27" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-244" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-27" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-27" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-244" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-27" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-204" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-28" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-204" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-28" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
 <item itemtype="TextComponent" CircId="TextComponent-30" mainComp="false" Show_id="false" Show_Val="false" Pos="-64,-216" rotation="0" hflip="1" vflip="1" label="TextComponent-30" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="S" />
 
@@ -86,7 +86,7 @@
 
 <item itemtype="And Gate" CircId="And Gate-67" mainComp="false" Show_id="false" Show_Val="false" Pos="52,-436" rotation="0" hflip="1" vflip="1" label="And Gate-67" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-69" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-432" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-69" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-69" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-432" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-69" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
 <item itemtype="Probe" CircId="Probe-70" mainComp="false" Show_id="false" Show_Val="true" Pos="116,-508" rotation="-45" hflip="1" vflip="1" label="Probe-70" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
@@ -116,13 +116,13 @@
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-90" mainComp="false" Show_id="false" Show_Val="false" Pos="264,-508" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-90" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-92" mainComp="false" Show_id="false" Show_Val="false" Pos="268,-432" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-92" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-92" mainComp="false" Show_id="false" Show_Val="false" Pos="268,-432" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-92" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
 <item itemtype="Probe" CircId="Probe-93" mainComp="false" Show_id="false" Show_Val="true" Pos="464,-524" rotation="-45" hflip="1" vflip="1" label="Probe-93" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="Probe" CircId="Probe-94" mainComp="false" Show_id="false" Show_Val="true" Pos="464,-492" rotation="-45" hflip="1" vflip="1" label="Probe-94" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="FlipFlopD" CircId="FlipFlopD-95" mainComp="false" Show_id="false" Show_Val="false" Pos="352,-600" rotation="0" hflip="1" vflip="1" label="FlipFlopD-95" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="true" Reset_Inverted="true" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="FlipFlopD" CircId="FlipFlopD-95" mainComp="false" Show_id="false" Show_Val="false" Pos="320,-584" rotation="0" hflip="1" vflip="1" label="FlipFlopD-95" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="true" Reset_Inverted="true" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
 <item itemtype="TextComponent" CircId="TextComponent-96" mainComp="false" Show_id="false" Show_Val="false" Pos="488,-528" rotation="0" hflip="1" vflip="1" label="TextComponent-96" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="Q" />
 
@@ -131,6 +131,64 @@
 <item itemtype="TextComponent" CircId="TextComponent-98" mainComp="false" Show_id="false" Show_Val="false" Pos="204,-520" rotation="0" hflip="1" vflip="1" label="TextComponent-98" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="Clk" />
 
 <item itemtype="TextComponent" CircId="TextComponent-99" mainComp="false" Show_id="false" Show_Val="false" Pos="204,-448" rotation="0" hflip="1" vflip="1" label="TextComponent-99" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="D" />
+
+<item itemtype="TextComponent" CircId="TextComponent-100" mainComp="false" Show_id="false" Show_Val="false" Pos="-124,-492" rotation="0" hflip="1" vflip="1" label="TextComponent-100" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="EN" />
+
+<item itemtype="TextComponent" CircId="TextComponent-101" mainComp="false" Show_id="false" Show_Val="false" Pos="-124,-448" rotation="0" hflip="1" vflip="1" label="TextComponent-101" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="D" />
+
+<item itemtype="FlipFlopD" CircId="FlipFlopD-102" mainComp="false" Show_id="false" Show_Val="false" Pos="536,-596" rotation="0" hflip="1" vflip="1" label="FlipFlopD-102" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="true" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-103" mainComp="false" Show_id="false" Show_Val="false" Pos="492,-596" rotation="0" hflip="1" vflip="1" label="Xor Gate-103" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-105" mainComp="false" Show_id="false" Show_Val="false" Pos="488,-572" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-105" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-106" mainComp="false" Show_id="false" Show_Val="false" Pos="448,-592" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-106" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Probe" CircId="Probe-107" mainComp="false" Show_id="false" Show_Val="true" Pos="576,-612" rotation="-45" hflip="1" vflip="1" label="Probe-107" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-108" mainComp="false" Show_id="false" Show_Val="true" Pos="576,-604" rotation="-45" hflip="1" vflip="1" label="Probe-108" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-109" mainComp="false" Show_id="false" Show_Val="false" Pos="600,-624" rotation="0" hflip="1" vflip="1" label="TextComponent-109" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="Q" />
+
+<item itemtype="TextComponent" CircId="TextComponent-110" mainComp="false" Show_id="false" Show_Val="false" Pos="596,-600" rotation="0" hflip="1" vflip="1" label="TextComponent-110" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="!Q" />
+
+<item itemtype="TextComponent" CircId="TextComponent-111" mainComp="false" Show_id="false" Show_Val="false" Pos="424,-628" rotation="0" hflip="1" vflip="1" label="TextComponent-111" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="T" />
+
+<item itemtype="TextComponent" CircId="TextComponent-112" mainComp="false" Show_id="false" Show_Val="false" Pos="420,-580" rotation="0" hflip="1" vflip="1" label="TextComponent-112" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="Clk" />
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-114" mainComp="false" Show_id="false" Show_Val="false" Pos="564,-676" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-114" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="true" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="FlipFlopT" CircId="FlipFlopT-115" mainComp="false" Show_id="false" Show_Val="false" Pos="536,-568" rotation="0" hflip="1" vflip="1" label="FlipFlopT-115" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="true" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="FlipFlopD" CircId="FlipFlopD-116" mainComp="false" Show_id="false" Show_Val="false" Pos="532,-732" rotation="0" hflip="1" vflip="1" label="FlipFlopD-116" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="true" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-117" mainComp="false" Show_id="false" Show_Val="false" Pos="496,-732" rotation="0" hflip="1" vflip="1" label="Or Gate-117" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-118" mainComp="false" Show_id="false" Show_Val="false" Pos="452,-744" rotation="0" hflip="1" vflip="1" label="And Gate-118" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-119" mainComp="false" Show_id="false" Show_Val="false" Pos="452,-720" rotation="0" hflip="1" vflip="1" label="And Gate-119" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Buffer" CircId="Buffer-120" mainComp="false" Show_id="false" Show_Val="false" Pos="416,-724" rotation="0" hflip="1" vflip="1" label="Buffer-120" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-121" mainComp="false" Show_id="false" Show_Val="false" Pos="376,-748" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-121" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-122" mainComp="false" Show_id="false" Show_Val="false" Pos="376,-724" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-122" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-123" mainComp="false" Show_id="false" Show_Val="false" Pos="376,-700" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-123" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Probe" CircId="Probe-124" mainComp="false" Show_id="false" Show_Val="true" Pos="572,-748" rotation="-45" hflip="1" vflip="1" label="Probe-124" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-125" mainComp="false" Show_id="false" Show_Val="true" Pos="572,-740" rotation="-45" hflip="1" vflip="1" label="Probe-125" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-126" mainComp="false" Show_id="false" Show_Val="false" Pos="320,-760" rotation="0" hflip="1" vflip="1" label="TextComponent-126" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="J" />
+
+<item itemtype="TextComponent" CircId="TextComponent-127" mainComp="false" Show_id="false" Show_Val="false" Pos="320,-736" rotation="0" hflip="1" vflip="1" label="TextComponent-127" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="K" />
+
+<item itemtype="TextComponent" CircId="TextComponent-128" mainComp="false" Show_id="false" Show_Val="false" Pos="316,-712" rotation="0" hflip="1" vflip="1" label="TextComponent-128" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="Clk" />
+
+<item itemtype="TextComponent" CircId="TextComponent-129" mainComp="false" Show_id="false" Show_Val="false" Pos="588,-756" rotation="0" hflip="1" vflip="1" label="TextComponent-129" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="Q" />
+
+<item itemtype="TextComponent" CircId="TextComponent-130" mainComp="false" Show_id="false" Show_Val="false" Pos="584,-732" rotation="0" hflip="1" vflip="1" label="TextComponent-130" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="!Q" />
 
 <item itemtype="Node" CircId="Node-5" mainComp="false" Pos="120,-52" />
 
@@ -249,5 +307,31 @@
 <item itemtype="Connector" uid="Connector-93" startpinid="Fixed Voltage-92-outnod" endpinid="And Gate-83-in1" pointList="284,-432,332,-432" />
 
 <item itemtype="Connector" uid="Connector-90" startpinid="Fixed Voltage-90-outnod" endpinid="Node-91-1" pointList="280,-508,316,-508" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="FlipFlopD-102-in0" endpinid="Xor Gate-103-out" pointList="520,-596,508,-596" />
+
+<item itemtype="Connector" uid="Connector-95" startpinid="Xor Gate-103-in0" endpinid="FlipFlopD-102-out0" pointList="476,-600,476,-624,560,-624,560,-596" />
+
+<item itemtype="Connector" uid="Connector-96" startpinid="Fixed Voltage-105-outnod" endpinid="FlipFlopD-102-in3" pointList="504,-572,504,-588,520,-588" />
+
+<item itemtype="Connector" uid="Connector-97" startpinid="Fixed Voltage-106-outnod" endpinid="Xor Gate-103-in1" pointList="464,-592,476,-592" />
+
+<item itemtype="Connector" uid="Connector-98" startpinid="FlipFlopD-116-in0" endpinid="Or Gate-117-out" pointList="516,-732,512,-732" />
+
+<item itemtype="Connector" uid="Connector-99" startpinid="Or Gate-117-in0" endpinid="And Gate-118-out" pointList="480,-736,468,-736,468,-744" />
+
+<item itemtype="Connector" uid="Connector-100" startpinid="And Gate-119-out" endpinid="Or Gate-117-in1" pointList="468,-720,468,-728,480,-728" />
+
+<item itemtype="Connector" uid="Connector-101" startpinid="Buffer-120-out" endpinid="And Gate-119-in0" pointList="432,-724,436,-724" />
+
+<item itemtype="Connector" uid="Connector-102" startpinid="Fixed Voltage-121-outnod" endpinid="And Gate-118-in0" pointList="392,-748,436,-748" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="Fixed Voltage-122-outnod" endpinid="Buffer-120-in0" pointList="392,-724,400,-724" />
+
+<item itemtype="Connector" uid="Connector-104" startpinid="And Gate-119-in1" endpinid="FlipFlopD-116-out0" pointList="436,-716,436,-708,572,-708,572,-732,556,-732" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="FlipFlopD-116-out1" endpinid="And Gate-118-in1" pointList="556,-724,564,-724,564,-756,432,-756,432,-740,436,-740" />
+
+<item itemtype="Connector" uid="Connector-106" startpinid="Fixed Voltage-123-outnod" endpinid="FlipFlopD-116-in3" pointList="392,-700,516,-700,516,-724" />
 
 </circuit>
