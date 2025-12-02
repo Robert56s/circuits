@@ -1,0 +1,139 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Seven Segment" CircId="Seven Segment-271" mainComp="false" Show_id="false" Show_Val="false" Pos="768,-12" rotation="0" hflip="1" vflip="1" label="Seven Segment-271" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="1" Vertical_Pins="false" CommonCathode="false" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-279" mainComp="false" Show_id="false" Show_Val="false" Pos="816,-12" rotation="0" hflip="1" vflip="1" label="Seven Segment-279" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="1" Vertical_Pins="false" CommonCathode="false" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Rail" CircId="Rail-373" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="776,40" rotation="90" hflip="1" vflip="-1" label="Rail-373" idLabPos="-5,-10" labelrot="-90" valLabPos="-0.589642,-9.66078" valLabRot="270" Voltage="5 V" />
+
+<item itemtype="Subcircuit" CircId="74XX246-375" mainComp="false" Show_id="true" Show_Val="false" Pos="652,-36" rotation="0" hflip="1" vflip="1" label="74LS247" idLabPos="-1.36601,-16.8251" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-378" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="720,-12" rotation="0" hflip="1" vflip="1" label="ResistorDip-378" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="220 Ω" Size="7" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="Rail" CircId="Rail-381" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="648,40" rotation="90" hflip="1" vflip="-1" label="Rail-381" idLabPos="-5,-10" labelrot="-90" valLabPos="-0.0240816,-8.08932" valLabRot="270" Voltage="5 V" />
+
+<item itemtype="Subcircuit" CircId="74XX246-385" mainComp="false" Show_id="true" Show_Val="false" Pos="620,-152" rotation="0" hflip="1" vflip="1" label="74LS247" idLabPos="-1.30696,-15.3996" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Rail" CircId="Rail-389" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="612,-72" rotation="90" hflip="1" vflip="-1" label="Rail-389" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-390" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="692,-120" rotation="0" hflip="1" vflip="1" label="ResistorDip-390" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="220 Ω" Size="7" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="Rail" CircId="Rail-392" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="824,44" rotation="90" hflip="1" vflip="-1" label="Rail-392" idLabPos="-5,-10" labelrot="-90" valLabPos="-0.0240816,-8.08932" valLabRot="270" Voltage="5 V" />
+
+<item itemtype="Subcircuit" CircId="Uno-1097" mainComp="false" Show_id="true" Show_Val="false" Pos="308,-160" rotation="360" hflip="1" vflip="1" label="Arduino Uno" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="arduino_claiver.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="KeyPad" CircId="KeyPad-1098" mainComp="false" Show_id="false" Show_Val="false" Pos="160,-104" rotation="0" hflip="1" vflip="1" label="KeyPad-1098" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4" Cols="3" Key_Labels="123456789*0#" />
+
+<item itemtype="Node" CircId="Node-1099" mainComp="false" Pos="604,-112" />
+
+<item itemtype="Node" CircId="Node-1100" mainComp="false" Pos="644,4" />
+
+<item itemtype="Connector" uid="Connector-954" startpinid="Seven Segment-271-pin_commona" endpinid="Rail-373-outnod" pointList="776,20,776,24" />
+
+<item itemtype="Connector" uid="Connector-962" startpinid="74XX246-375-a" endpinid="ResistorDip-378-resistor0-ePin0" pointList="692,-28,704,-28,704,-36" />
+
+<item itemtype="Connector" uid="Connector-963" startpinid="74XX246-375-b" endpinid="ResistorDip-378-resistor1-ePin2" pointList="692,-20,704,-20,704,-28" />
+
+<item itemtype="Connector" uid="Connector-964" startpinid="74XX246-375-c" endpinid="ResistorDip-378-resistor2-ePin4" pointList="692,-12,704,-12,704,-20" />
+
+<item itemtype="Connector" uid="Connector-965" startpinid="74XX246-375-d" endpinid="ResistorDip-378-resistor3-ePin6" pointList="692,-4,704,-4,704,-12" />
+
+<item itemtype="Connector" uid="Connector-966" startpinid="74XX246-375-e" endpinid="ResistorDip-378-resistor4-ePin8" pointList="692,4,704,4,704,-4" />
+
+<item itemtype="Connector" uid="Connector-967" startpinid="74XX246-375-f" endpinid="ResistorDip-378-resistor5-ePin10" pointList="692,12,704,12,704,4" />
+
+<item itemtype="Connector" uid="Connector-968" startpinid="74XX246-375-g" endpinid="ResistorDip-378-resistor6-ePin12" pointList="692,20,704,20,704,12" />
+
+<item itemtype="Connector" uid="Connector-969" startpinid="ResistorDip-378-resistor0-ePin1" endpinid="Seven Segment-271-pin_a" pointList="736,-36,744,-36" />
+
+<item itemtype="Connector" uid="Connector-970" startpinid="ResistorDip-378-resistor1-ePin3" endpinid="Seven Segment-271-pin_b" pointList="736,-28,744,-28" />
+
+<item itemtype="Connector" uid="Connector-971" startpinid="ResistorDip-378-resistor2-ePin5" endpinid="Seven Segment-271-pin_c" pointList="736,-20,744,-20" />
+
+<item itemtype="Connector" uid="Connector-972" startpinid="ResistorDip-378-resistor3-ePin7" endpinid="Seven Segment-271-pin_d" pointList="736,-12,744,-12" />
+
+<item itemtype="Connector" uid="Connector-973" startpinid="ResistorDip-378-resistor4-ePin9" endpinid="Seven Segment-271-pin_e" pointList="736,-4,744,-4" />
+
+<item itemtype="Connector" uid="Connector-974" startpinid="ResistorDip-378-resistor5-ePin11" endpinid="Seven Segment-271-pin_f" pointList="736,4,744,4" />
+
+<item itemtype="Connector" uid="Connector-975" startpinid="ResistorDip-378-resistor6-ePin13" endpinid="Seven Segment-271-pin_g" pointList="736,12,744,12" />
+
+<item itemtype="Connector" uid="Connector-987" startpinid="74XX246-375-LT" endpinid="Rail-381-outnod" pointList="644,20,644,24,648,24" />
+
+<item itemtype="Connector" uid="Connector-1013" startpinid="74XX246-385-LT" endpinid="Rail-389-outnod" pointList="612,-96,612,-88" />
+
+<item itemtype="Connector" uid="Connector-1014" startpinid="74XX246-385-a" endpinid="ResistorDip-390-resistor0-ePin0" pointList="660,-144,676,-144" />
+
+<item itemtype="Connector" uid="Connector-1015" startpinid="74XX246-385-b" endpinid="ResistorDip-390-resistor1-ePin2" pointList="660,-136,676,-136" />
+
+<item itemtype="Connector" uid="Connector-1016" startpinid="74XX246-385-c" endpinid="ResistorDip-390-resistor2-ePin4" pointList="660,-128,676,-128" />
+
+<item itemtype="Connector" uid="Connector-1017" startpinid="74XX246-385-d" endpinid="ResistorDip-390-resistor3-ePin6" pointList="660,-120,676,-120" />
+
+<item itemtype="Connector" uid="Connector-1018" startpinid="74XX246-385-e" endpinid="ResistorDip-390-resistor4-ePin8" pointList="660,-112,676,-112" />
+
+<item itemtype="Connector" uid="Connector-1019" startpinid="74XX246-385-f" endpinid="ResistorDip-390-resistor5-ePin10" pointList="660,-104,676,-104" />
+
+<item itemtype="Connector" uid="Connector-1020" startpinid="74XX246-385-g" endpinid="ResistorDip-390-resistor6-ePin12" pointList="660,-96,676,-96" />
+
+<item itemtype="Connector" uid="Connector-1021" startpinid="ResistorDip-390-resistor0-ePin1" endpinid="Seven Segment-279-pin_a" pointList="708,-144,792,-144,792,-36" />
+
+<item itemtype="Connector" uid="Connector-1022" startpinid="ResistorDip-390-resistor1-ePin3" endpinid="Seven Segment-279-pin_b" pointList="708,-136,792,-136,792,-28" />
+
+<item itemtype="Connector" uid="Connector-1023" startpinid="ResistorDip-390-resistor2-ePin5" endpinid="Seven Segment-279-pin_c" pointList="708,-128,792,-128,792,-20" />
+
+<item itemtype="Connector" uid="Connector-1024" startpinid="ResistorDip-390-resistor3-ePin7" endpinid="Seven Segment-279-pin_d" pointList="708,-120,792,-120,792,-12" />
+
+<item itemtype="Connector" uid="Connector-1025" startpinid="ResistorDip-390-resistor4-ePin9" endpinid="Seven Segment-279-pin_e" pointList="708,-112,792,-112,792,-4" />
+
+<item itemtype="Connector" uid="Connector-1026" startpinid="ResistorDip-390-resistor5-ePin11" endpinid="Seven Segment-279-pin_f" pointList="708,-104,792,-104,792,4" />
+
+<item itemtype="Connector" uid="Connector-1027" startpinid="ResistorDip-390-resistor6-ePin13" endpinid="Seven Segment-279-pin_g" pointList="708,-96,792,-96,792,12" />
+
+<item itemtype="Connector" uid="Connector-1029" startpinid="Seven Segment-279-pin_commona" endpinid="Rail-392-outnod" pointList="824,20,824,28" />
+
+<item itemtype="Connector" uid="Connector-2634" startpinid="KeyPad-1098-Pin4" endpinid="Uno-1097-4" pointList="160,-32,140,-32,140,-112,316,-112" />
+
+<item itemtype="Connector" uid="Connector-2635" startpinid="KeyPad-1098-Pin5" endpinid="Uno-1097-3" pointList="176,-32,176,-24,132,-24,132,-120,316,-120" />
+
+<item itemtype="Connector" uid="Connector-2636" startpinid="KeyPad-1098-Pin6" endpinid="Uno-1097-2" pointList="192,-32,192,-16,124,-16,124,-128,316,-128" />
+
+<item itemtype="Connector" uid="Connector-2639" startpinid="KeyPad-1098-Pin1" endpinid="Uno-1097-7" pointList="208,-80,244,-80,244,-88,316,-88" />
+
+<item itemtype="Connector" uid="Connector-2641" startpinid="KeyPad-1098-Pin0" endpinid="Uno-1097-8" pointList="208,-96,220,-96,220,-72,316,-72" />
+
+<item itemtype="Connector" uid="Connector-2642" startpinid="KeyPad-1098-Pin2" endpinid="Uno-1097-6" pointList="208,-64,236,-64,236,-96,316,-96" />
+
+<item itemtype="Connector" uid="Connector-2643" startpinid="KeyPad-1098-Pin3" endpinid="Uno-1097-5" pointList="208,-48,228,-48,228,-104,316,-104" />
+
+<item itemtype="Connector" uid="Connector-2648" startpinid="Uno-1097-A1" endpinid="Node-1099-1" pointList="460,-112,604,-112" />
+
+<item itemtype="Connector" uid="Connector-2649" startpinid="74XX246-385-RBI" endpinid="Node-1099-0" pointList="612,-104,604,-104,604,-112" />
+
+<item itemtype="Connector" uid="Connector-2650" startpinid="Node-1099-2" endpinid="74XX246-385-BI/RBO" pointList="604,-112,612,-112" />
+
+<item itemtype="Connector" uid="Connector-2651" startpinid="Uno-1097-A0" endpinid="Node-1100-1" pointList="460,-104,476,-104,476,4,644,4" />
+
+<item itemtype="Connector" uid="Connector-2652" startpinid="74XX246-375-RBI" endpinid="Node-1100-0" pointList="644,12,644,4" />
+
+<item itemtype="Connector" uid="Connector-2653" startpinid="Node-1100-2" endpinid="74XX246-375-BI/RBO" pointList="644,4,644,4" />
+
+<item itemtype="Connector" uid="Connector-3036" startpinid="Uno-1097-9" endpinid="74XX246-375-A" pointList="316,-64,244,-64,244,36,500,36,500,-28,644,-28" />
+
+<item itemtype="Connector" uid="Connector-3039" startpinid="Uno-1097-12" endpinid="74XX246-375-D" pointList="316,-40,268,-40,268,60,524,60,524,-4,644,-4" />
+
+<item itemtype="Connector" uid="Connector-3040" startpinid="Uno-1097-A4" endpinid="74XX246-385-B" pointList="460,-136,612,-136" />
+
+<item itemtype="Connector" uid="Connector-3043" startpinid="Uno-1097-10" endpinid="74XX246-375-B" pointList="316,-56,252,-56,252,44,508,44,508,-20,644,-20" />
+
+<item itemtype="Connector" uid="Connector-3048" startpinid="Uno-1097-A2" endpinid="74XX246-385-D" pointList="460,-120,612,-120" />
+
+<item itemtype="Connector" uid="Connector-3056" startpinid="Uno-1097-A3" endpinid="74XX246-385-C" pointList="460,-128,612,-128" />
+
+<item itemtype="Connector" uid="Connector-3057" startpinid="Uno-1097-A5" endpinid="74XX246-385-A" pointList="460,-144,612,-144" />
+
+<item itemtype="Connector" uid="Connector-3062" startpinid="Uno-1097-11" endpinid="74XX246-375-C" pointList="316,-48,260,-48,260,52,516,52,516,-12,644,-12" />
+
+</circuit>

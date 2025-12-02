@@ -90,10 +90,6 @@
 
 <item itemtype="Capacitor" CircId="Capacitor-854" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="424,304" rotation="0" hflip="1" vflip="1" label="Capacitor-854" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 nF" Resistance="1 µΩ" InitVolt="0 V" ReaStep="0 ns" />
 
-<item itemtype="Probe" CircId="Probe-864" mainComp="false" Show_id="false" Show_Val="true" Pos="472,248" rotation="-45" hflip="1" vflip="1" label="Probe-864" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
-
-<item itemtype="Probe" CircId="Probe-1002" mainComp="false" Show_id="false" Show_Val="true" Pos="592,476" rotation="-45" hflip="1" vflip="1" label="Probe-1002" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
-
 <item itemtype="Ground" CircId="Ground-1048" mainComp="false" Show_id="false" Show_Val="false" Pos="488,232" rotation="0" hflip="1" vflip="1" label="Ground-1048" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="Ground" CircId="Ground-1054" mainComp="false" Show_id="false" Show_Val="false" Pos="600,268" rotation="0" hflip="1" vflip="-1" label="Ground-1054" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
@@ -102,19 +98,13 @@
 
 <item itemtype="Ground" CircId="Ground-1059" mainComp="false" Show_id="false" Show_Val="false" Pos="844,204" rotation="0" hflip="1" vflip="1" label="Ground-1059" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Subcircuit" CircId="Uno-1097" mainComp="false" Show_id="true" Show_Val="false" Pos="308,-160" rotation="360" hflip="1" vflip="1" label="Uno-1097" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<item itemtype="Subcircuit" CircId="Uno-1097" mainComp="false" Show_id="true" Show_Val="false" Pos="308,-160" rotation="360" hflip="1" vflip="1" label="Arduino Uno" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
 <mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="arduino_claiver.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
 </item>
 
 <item itemtype="KeyPad" CircId="KeyPad-1098" mainComp="false" Show_id="false" Show_Val="false" Pos="160,-104" rotation="0" hflip="1" vflip="1" label="KeyPad-1098" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4" Cols="3" Key_Labels="123456789*0#" />
 
 <item itemtype="And Gate" CircId="And Gate-1112" mainComp="false" Show_id="false" Show_Val="false" Pos="768,172" rotation="0" hflip="1" vflip="1" label="And Gate-1112" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
-
-<item itemtype="Probe" CircId="Probe-1121" mainComp="false" Show_id="false" Show_Val="true" Pos="640,52" rotation="-45" hflip="1" vflip="1" label="Probe-1121" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
-
-<item itemtype="Probe" CircId="Probe-1155" mainComp="false" Show_id="false" Show_Val="true" Pos="812,112" rotation="-45" hflip="1" vflip="1" label="Probe-1155" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
-
-<item itemtype="Probe" CircId="Probe-1156" mainComp="false" Show_id="false" Show_Val="true" Pos="760,160" rotation="-45" hflip="1" vflip="1" label="Probe-1156" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="And Gate" CircId="And Gate-1170" mainComp="false" Show_id="false" Show_Val="false" Pos="1024,84" rotation="0" hflip="1" vflip="1" label="And Gate-1170" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
@@ -126,9 +116,19 @@
 
 <item itemtype="And Gate" CircId="And Gate-1216" mainComp="false" Show_id="false" Show_Val="false" Pos="456,180" rotation="90" hflip="1" vflip="1" label="And Gate-1216" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
+<item itemtype="And Gate" CircId="And Gate-1231" mainComp="false" Show_id="false" Show_Val="false" Pos="948,88" rotation="0" hflip="1" vflip="1" label="And Gate-1231" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Probe" CircId="Probe-1121" mainComp="false" Show_id="false" Show_Val="true" Pos="640,52" rotation="-45" hflip="1" vflip="1" label="Probe-1121" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-1155" mainComp="false" Show_id="false" Show_Val="true" Pos="812,112" rotation="-45" hflip="1" vflip="1" label="Probe-1155" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
 <item itemtype="Probe" CircId="Probe-1222" mainComp="false" Show_id="false" Show_Val="true" Pos="808,156" rotation="-45" hflip="1" vflip="1" label="Probe-1222" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="And Gate" CircId="And Gate-1231" mainComp="false" Show_id="false" Show_Val="false" Pos="948,88" rotation="0" hflip="1" vflip="1" label="And Gate-1231" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="Probe" CircId="Probe-1156" mainComp="false" Show_id="false" Show_Val="true" Pos="760,160" rotation="-45" hflip="1" vflip="1" label="Probe-1156" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-864" mainComp="false" Show_id="false" Show_Val="true" Pos="472,248" rotation="-45" hflip="1" vflip="1" label="Probe-864" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-1002" mainComp="false" Show_id="false" Show_Val="true" Pos="592,476" rotation="-45" hflip="1" vflip="1" label="Probe-1002" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="Node" CircId="Node-518" mainComp="false" Pos="860,188" />
 
