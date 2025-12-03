@@ -36,6 +36,18 @@
 
 <item itemtype="Probe" CircId="Probe-56" mainComp="false" Show_id="false" Show_Val="true" Pos="-188,92" rotation="-45" hflip="1" vflip="1" label="Probe-56" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
+<item itemtype="FlipFlopRS" CircId="FlipFlopRS-57" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,228" rotation="0" hflip="1" vflip="1" label="FlipFlopRS-57" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="FlipFlopRS" CircId="FlipFlopRS-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,228" rotation="0" hflip="1" vflip="1" label="FlipFlopRS-58" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Rail" CircId="Rail-59" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-400,252" rotation="90" hflip="1" vflip="1" label="Rail-59" idLabPos="-5,-10" labelrot="-90" valLabPos="-14.4024,5.6568" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Push" CircId="Push-60" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,268" rotation="0" hflip="1" vflip="1" label="Push-60" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Probe" CircId="Probe-63" mainComp="false" Show_id="false" Show_Val="true" Pos="-284,204" rotation="-45" hflip="1" vflip="1" label="Probe-63" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-65" mainComp="false" Show_id="false" Show_Val="true" Pos="-228,204" rotation="-45" hflip="1" vflip="1" label="Probe-65" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
 <item itemtype="Node" CircId="Node-38" mainComp="false" Pos="-196,28" />
 
 <item itemtype="Node" CircId="Node-39" mainComp="false" Pos="-196,4" />
@@ -51,6 +63,8 @@
 <item itemtype="Node" CircId="Node-54" mainComp="false" Pos="-248,140" />
 
 <item itemtype="Node" CircId="Node-55" mainComp="false" Pos="-268,116" />
+
+<item itemtype="Node" CircId="Node-61" mainComp="false" Pos="-356,268" />
 
 <item itemtype="Connector" uid="Connector-1" startpinid="Rail-2-outnod" endpinid="Push-1-pinP0" pointList="-396,20,-384,20" />
 
@@ -115,5 +129,21 @@
 <item itemtype="Connector" uid="Connector-117" startpinid="Node-49-1" endpinid="Node-55-0" pointList="-284,116,-268,116" />
 
 <item itemtype="Connector" uid="Connector-118" startpinid="Node-55-2" endpinid="FlipFlopRS-48-in2" pointList="-268,116,-248,116" />
+
+<item itemtype="Connector" uid="Connector-119" startpinid="Rail-59-outnod" endpinid="Push-60-pinP0" pointList="-400,268,-388,268" />
+
+<item itemtype="Connector" uid="Connector-122" startpinid="Push-60-switch0pinN" endpinid="Node-61-0" pointList="-356,268,-356,268" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="Node-61-2" endpinid="FlipFlopRS-57-in2" pointList="-356,268,-356,228,-340,228" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="FlipFlopRS-58-out0" endpinid="FlipFlopRS-57-in0" pointList="-244,220,-244,204,-340,204,-340,220" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="FlipFlopRS-58-out1" endpinid="FlipFlopRS-57-in1" pointList="-244,236,-244,252,-340,252,-340,236" />
+
+<item itemtype="Connector" uid="Connector-126" startpinid="FlipFlopRS-58-in0" endpinid="FlipFlopRS-57-out1" pointList="-284,220,-296,220,-296,236,-300,236" />
+
+<item itemtype="Connector" uid="Connector-130" startpinid="Node-61-1" endpinid="FlipFlopRS-58-in2" pointList="-356,268,-292,268,-292,228,-284,228" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="FlipFlopRS-57-out0" endpinid="FlipFlopRS-58-in1" pointList="-300,220,-300,224,-288,224,-288,236,-284,236" />
 
 </circuit>
