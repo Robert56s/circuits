@@ -1,0 +1,25 @@
+<circuit version="2.0.0-" rev="250808" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="0" width="3200" height="2400" >
+
+<item itemtype="FlipFlopD" CircId="FlipFlopD-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-344,-76" rotation="0" hflip="1" vflip="1" label="FlipFlopD-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" invertPins="in1,in2," UseRS="false" Trigger="Clock" Family="Custom" SupplyV="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" InPullups="0 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Oen_Imped="1e+16 Ω" pd_n="1" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-76" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-3" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Probe" CircId="Probe-4" mainComp="false" Show_id="false" Show_Val="true" Pos="-292,-100" rotation="-45" hflip="1" vflip="1" label="Probe-4" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Probe" CircId="Probe-5" mainComp="false" Show_id="false" Show_Val="true" Pos="-292,-76" rotation="-45" hflip="1" vflip="1" label="Probe-5" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Push" CircId="Push-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-52" rotation="0" hflip="1" vflip="1" label="Push-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Rail" CircId="Rail-7" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-436,-68" rotation="90" hflip="1" vflip="1" label="Rail-7" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Fixed Voltage-3-outnod" endpinid="FlipFlopD-2-in0" pointList="-372,-76,-360,-76" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Push-6-switch0pinN" endpinid="FlipFlopD-2-in3" pointList="-372,-52,-372,-68,-360,-68" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Rail-7-outnod" endpinid="Push-6-pinP0" pointList="-436,-52,-404,-52" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="FlipFlopD-2-out0" endpinid="Probe-4-inpin" pointList="-320,-76,-308,-76,-308,-84" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="FlipFlopD-2-out1" endpinid="Probe-5-inpin" pointList="-320,-68,-308,-68,-308,-60" />
+
+</circuit>
