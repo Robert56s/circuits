@@ -1,0 +1,11 @@
+<!DOCTYPE SimulIDE>
+
+<itemlib>
+    
+  <itemset category="Logic/custom" type="Subcircuit" folder="Custom" >
+	<item name="addsub_4bit" />
+	<item name="demux_4bit" />
+	<item name="mux_4bit" />
+  </itemset>
+
+</itemlib>

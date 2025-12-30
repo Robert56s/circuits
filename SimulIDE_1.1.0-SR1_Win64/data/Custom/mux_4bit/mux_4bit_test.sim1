@@ -1,0 +1,153 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="mux_4bit-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-284,-12" rotation="0" hflip="1" vflip="1" label="mux_4bit-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,20" rotation="0" hflip="1" vflip="1" label="SwitchDip-3" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="16" Exclusive="false" CommonPin="false" State="58465" />
+
+<item itemtype="Rail" CircId="Rail-4" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-332,-20" rotation="90" hflip="1" vflip="1" label="Rail-4" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Subcircuit" CircId="ENCODER_HEX-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,164" rotation="0" hflip="1" vflip="1" label="ENCODER_HEX-20" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Probe" CircId="Probe-21" mainComp="false" Show_id="false" Show_Val="true" Pos="-204,-20" rotation="-45" hflip="1" vflip="1" label="Probe-21" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-22" mainComp="false" Show_id="false" Show_Val="true" Pos="-252,136" rotation="-45" hflip="1" vflip="1" label="Probe-22" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-23" mainComp="false" Show_id="false" Show_Val="true" Pos="-244,136" rotation="-45" hflip="1" vflip="1" label="Probe-23" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-24" mainComp="false" Show_id="false" Show_Val="true" Pos="-236,136" rotation="-45" hflip="1" vflip="1" label="Probe-24" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-25" mainComp="false" Show_id="false" Show_Val="true" Pos="-228,136" rotation="-45" hflip="1" vflip="1" label="Probe-25" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Node" CircId="Node-5" mainComp="false" Pos="-332,-4" />
+
+<item itemtype="Node" CircId="Node-6" mainComp="false" Pos="-332,4" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="-332,12" />
+
+<item itemtype="Node" CircId="Node-8" mainComp="false" Pos="-332,20" />
+
+<item itemtype="Node" CircId="Node-9" mainComp="false" Pos="-332,28" />
+
+<item itemtype="Node" CircId="Node-10" mainComp="false" Pos="-332,36" />
+
+<item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-332,44" />
+
+<item itemtype="Node" CircId="Node-12" mainComp="false" Pos="-332,52" />
+
+<item itemtype="Node" CircId="Node-13" mainComp="false" Pos="-332,60" />
+
+<item itemtype="Node" CircId="Node-14" mainComp="false" Pos="-332,68" />
+
+<item itemtype="Node" CircId="Node-15" mainComp="false" Pos="-332,76" />
+
+<item itemtype="Node" CircId="Node-16" mainComp="false" Pos="-332,84" />
+
+<item itemtype="Node" CircId="Node-17" mainComp="false" Pos="-332,92" />
+
+<item itemtype="Node" CircId="Node-18" mainComp="false" Pos="-332,100" />
+
+<item itemtype="Node" CircId="Node-19" mainComp="false" Pos="-332,108" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="SwitchDip-3-switch0-pinN" endpinid="mux_4bit-1-I0" pointList="-300,-4,-292,-4" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="SwitchDip-3-switch1-pinN" endpinid="mux_4bit-1-I1" pointList="-300,4,-292,4" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="SwitchDip-3-switch2-pinN" endpinid="mux_4bit-1-I2" pointList="-300,12,-292,12" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="SwitchDip-3-switch3-pinN" endpinid="mux_4bit-1-I3" pointList="-300,20,-292,20" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="SwitchDip-3-switch4-pinN" endpinid="mux_4bit-1-I4" pointList="-300,28,-292,28" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="SwitchDip-3-switch5-pinN" endpinid="mux_4bit-1-I5" pointList="-300,36,-292,36" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="SwitchDip-3-switch6-pinN" endpinid="mux_4bit-1-I6" pointList="-300,44,-292,44" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="SwitchDip-3-switch8-pinN" endpinid="mux_4bit-1-I8" pointList="-300,60,-292,60" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="SwitchDip-3-switch9-pinN" endpinid="mux_4bit-1-I9" pointList="-300,68,-292,68" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="SwitchDip-3-switch10-pinN" endpinid="mux_4bit-1-IA" pointList="-300,76,-292,76" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="SwitchDip-3-switch11-pinN" endpinid="mux_4bit-1-IB" pointList="-300,84,-292,84" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="SwitchDip-3-switch12-pinN" endpinid="mux_4bit-1-IC" pointList="-300,92,-292,92" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="SwitchDip-3-switch13-pinN" endpinid="mux_4bit-1-ID" pointList="-300,100,-292,100" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="SwitchDip-3-switch14-pinN" endpinid="mux_4bit-1-IE" pointList="-300,108,-292,108" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="SwitchDip-3-switch15-pinN" endpinid="mux_4bit-1-IF" pointList="-300,116,-292,116" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Rail-4-outnod" endpinid="Node-5-0" pointList="-332,-4,-332,-4" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Node-5-2" endpinid="SwitchDip-3-switch0-pinP" pointList="-332,-4,-324,-4" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Node-5-1" endpinid="Node-6-0" pointList="-332,-4,-332,4" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="Node-6-2" endpinid="SwitchDip-3-switch1-pinP" pointList="-332,4,-324,4" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="Node-6-1" endpinid="Node-7-0" pointList="-332,4,-332,12" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="Node-7-2" endpinid="SwitchDip-3-switch2-pinP" pointList="-332,12,-324,12" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="Node-7-1" endpinid="Node-8-0" pointList="-332,12,-332,20" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="Node-8-2" endpinid="SwitchDip-3-switch3-pinP" pointList="-332,20,-324,20" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="Node-8-1" endpinid="Node-9-0" pointList="-332,20,-332,28" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Node-9-2" endpinid="SwitchDip-3-switch4-pinP" pointList="-332,28,-324,28" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="Node-9-1" endpinid="Node-10-0" pointList="-332,28,-332,36" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="Node-10-2" endpinid="SwitchDip-3-switch5-pinP" pointList="-332,36,-324,36" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Node-10-1" endpinid="Node-11-0" pointList="-332,36,-332,44" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="Node-11-2" endpinid="SwitchDip-3-switch6-pinP" pointList="-332,44,-324,44" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="Node-11-1" endpinid="Node-12-0" pointList="-332,44,-332,52" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="Node-12-2" endpinid="SwitchDip-3-switch7-pinP" pointList="-332,52,-324,52" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="Node-12-1" endpinid="Node-13-0" pointList="-332,52,-332,60" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="Node-13-2" endpinid="SwitchDip-3-switch8-pinP" pointList="-332,60,-324,60" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="Node-13-1" endpinid="Node-14-0" pointList="-332,60,-332,68" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Node-14-2" endpinid="SwitchDip-3-switch9-pinP" pointList="-332,68,-324,68" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="Node-14-1" endpinid="Node-15-0" pointList="-332,68,-332,76" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Node-15-2" endpinid="SwitchDip-3-switch10-pinP" pointList="-332,76,-324,76" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="Node-15-1" endpinid="Node-16-0" pointList="-332,76,-332,84" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Node-16-2" endpinid="SwitchDip-3-switch11-pinP" pointList="-332,84,-324,84" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="Node-16-1" endpinid="Node-17-0" pointList="-332,84,-332,92" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="Node-17-2" endpinid="SwitchDip-3-switch12-pinP" pointList="-332,92,-324,92" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="Node-17-1" endpinid="Node-18-0" pointList="-332,92,-332,100" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="Node-18-2" endpinid="SwitchDip-3-switch13-pinP" pointList="-332,100,-324,100" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Node-19-1" endpinid="SwitchDip-3-switch15-pinP" pointList="-332,108,-332,116,-324,116" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="Node-18-1" endpinid="Node-19-0" pointList="-332,100,-332,108" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="Node-19-2" endpinid="SwitchDip-3-switch14-pinP" pointList="-332,108,-324,108" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="ENCODER_HEX-20-1" endpinid="mux_4bit-1-S3" pointList="-280,172,-268,172,-268,132" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="ENCODER_HEX-20-2" endpinid="mux_4bit-1-S2" pointList="-280,180,-260,180,-260,132" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="ENCODER_HEX-20-4" endpinid="mux_4bit-1-S1" pointList="-280,188,-252,188,-252,132" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="ENCODER_HEX-20-8" endpinid="mux_4bit-1-S0" pointList="-280,196,-244,196,-244,132" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="SwitchDip-3-switch7-pinN" endpinid="mux_4bit-1-I7" pointList="-300,52,-292,52" />
+
+</circuit>
