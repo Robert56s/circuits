@@ -1,6 +1,4 @@
 add_sub4bit :
-
-
 0000 : 0 : 0
 0001 : 1 : 1
 0010 : 2 : 2
@@ -27,3 +25,20 @@ Flags :
 
 
 alu_4bit :
+
+0000 : ADD     : A + B
+0001 : SUB     : A - B
+0010 : ADC     : A + B + Cin
+0011 : SBB     : A - B - Cin
+0100 : AND     : A & B
+0101 : OR      : A | B
+0110 : XOR     : A ^ B
+0111 : NOT     : ¬A
+1000 : SHL     : A << 1
+1001 : SHR     : A >> 1
+1010 : ROL     : rotate A left
+1011 : ROR     : rotate A right
+1100 : CMP     : compare A - B   (result ignored, flags only)
+1101 : PASS A  : A
+1110 : PASS B  : B
+1111 : CLR     : 0000
