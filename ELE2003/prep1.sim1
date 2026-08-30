@@ -52,6 +52,10 @@
 
 <item itemtype="AudioOut" CircId="AudioOut-4" mainComp="false" Show_id="false" Show_Val="false" Pos="332,-92" rotation="0" hflip="1" vflip="1" label="AudioOut-4" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="8 Ω" Frequency="1 kHz" />
 
+<item itemtype="Ground" CircId="Ground-72" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-72" rotation="0" hflip="1" vflip="1" label="Ground-72" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="AudioOut" CircId="AudioOut-73" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-108" rotation="0" hflip="1" vflip="1" label="AudioOut-73" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="8 Ω" Frequency="1 kHz" />
+
 <item itemtype="Node" CircId="Node-24" mainComp="false" Pos="-360,-124" />
 
 <item itemtype="Node" CircId="Node-26" mainComp="false" Pos="-384,-124" />
@@ -69,6 +73,8 @@
 <item itemtype="Node" CircId="Node-48" mainComp="false" Pos="-116,-228" />
 
 <item itemtype="Node" CircId="Node-46" mainComp="false" Pos="-164,-316" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" Pos="-272,-116" />
 
 <item itemtype="Connector" uid="Connector-39" startpinid="Resistor-20-lPin" endpinid="WaveGen-3-outnod" pointList="-440,-124,-464,-124" />
 
@@ -140,6 +146,12 @@
 
 <item itemtype="Connector" uid="Connector-165" startpinid="opAmp-27-output" endpinid="Capacitor-41-rPin" pointList="-28,-308,-12,-308,-12,-372,-84,-372" />
 
-<item itemtype="Connector" uid="Connector-166" startpinid="opAmp-15-output" endpinid="Resistor-19-rPin" pointList="-292,-116,-272,-116,-272,-168,-296,-168" />
+<item itemtype="Connector" uid="Connector-168" startpinid="Ground-72-Gnd" endpinid="AudioOut-73-rPin" pointList="-268,-88,-268,-108,-252,-108" />
+
+<item itemtype="Connector" uid="Connector-169" startpinid="Node-74-1" endpinid="AudioOut-73-lPin" pointList="-272,-116,-252,-116" />
+
+<item itemtype="Connector" uid="Connector-170" startpinid="opAmp-15-output" endpinid="Node-74-0" pointList="-292,-116,-272,-116" />
+
+<item itemtype="Connector" uid="Connector-171" startpinid="Node-74-2" endpinid="Resistor-19-rPin" pointList="-272,-116,-272,-168,-296,-168" />
 
 </circuit>
