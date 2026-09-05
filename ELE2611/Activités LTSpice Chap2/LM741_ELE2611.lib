@@ -1,0 +1,100 @@
+* ===========================================================================
+*  Bibliotheque ELE2611 - macromodeles d'amplificateurs operationnels
+*  ELE2611 « Circuits actifs » - Polytechnique Montreal - A. Mouapi - 2026
+*  Broches (symbole LTspice Opamps\opamp2) : 1 = In+  2 = In-  3 = V+  4 = V-  5 = OUT
+*
+*  LM741_ELE2611     : modele de base (Avol = 2e5, fc = 5 Hz, GBW = 1 MHz, SR = 0.333 V/us)
+*  LM741_ELE2611_OS  : + tension de decalage Vio = -1 mV (atelier 2.1)
+*  LM741_ELE2611_IL  : + limitation du courant de sortie 25 mA (atelier 2.4)
+*  LM741_ELE2611_HZ  : + resistance d'entree de mode commun 7.3 Meg (atelier 2.5)
+*  LM741_ELE2611_IB  : + courants de polarisation d'entree 57 nA (atelier 2.7)
+*  LM741_ELE2611_PSRR: + decalage Vio et couplage du rail positif, PSRR = 84.9 dB (atelier 2.11)
+*  TL082_ELE2611     : entree JFET 1T, Avol = 2e5, GBW = 4 MHz, SR = 13 V/us
+*
+*  B3 borne le noeud interne a +/-(Valim + 2 V) : sans lui, l'integrateur
+*  s'emballe en saturation et la sortie ne revient pas a temps.
+* ===========================================================================
+
+.subckt LM741_ELE2611 1 2 3 4 5
+.param gm=1.885m Ilim=100u Ccp=300p Rpol=106.1Meg
+R1  1 2 2Meg
+B1  0 10 I=Ilim*tanh(gm*V(1,2)/Ilim)
+R2  10 0 {Rpol}
+C1  10 0 {Ccp}
+B3  10 0 I=max(0, V(10)-(V(3)+2)) - max(0, (V(4)-2)-V(10))
+B2  20 0 V=max(V(4)+1, min(V(3)-1, V(10)))
+R3  20 5 75
+.ends LM741_ELE2611
+
+.subckt LM741_ELE2611_OS 1 2 3 4 5
+.param gm=1.885m Ilim=100u Ccp=300p Rpol=106.1Meg Vio=-1m
+R1  1 2 2Meg
+B1  0 10 I=Ilim*tanh(gm*(V(1,2)-Vio)/Ilim)
+R2  10 0 {Rpol}
+C1  10 0 {Ccp}
+B3  10 0 I=max(0, V(10)-(V(3)+2)) - max(0, (V(4)-2)-V(10))
+B2  20 0 V=max(V(4)+1, min(V(3)-1, V(10)))
+R3  20 5 75
+.ends LM741_ELE2611_OS
+
+.subckt LM741_ELE2611_IL 1 2 3 4 5
+.param gm=1.885m Ilim=100u Ccp=300p Rpol=106.1Meg Rs=75 Iomax=25m
+R1  1 2 2Meg
+B1  0 10 I=Ilim*tanh(gm*V(1,2)/Ilim)
+R2  10 0 {Rpol}
+C1  10 0 {Ccp}
+B3  10 0 I=max(0, V(10)-(V(3)+2)) - max(0, (V(4)-2)-V(10))
+B4  15 0 V=max(V(4)+1, min(V(3)-1, V(10)))
+B2  20 0 V=V(5) + (2/pi)*Rs*Iomax*atan( (V(15)-V(5))*(pi/2)/(Rs*Iomax) )
+R3  20 5 {Rs}
+.ends LM741_ELE2611_IL
+
+.subckt LM741_ELE2611_HZ 1 2 3 4 5
+.param gm=1.885m Ilim=100u Ccp=300p Rpol=106.1Meg Rcm=7.3Meg
+R1  1 2 2Meg
+Rc1 1 0 {Rcm}
+Rc2 2 0 {Rcm}
+B1  0 10 I=Ilim*tanh(gm*V(1,2)/Ilim)
+R2  10 0 {Rpol}
+C1  10 0 {Ccp}
+B3  10 0 I=max(0, V(10)-(V(3)+2)) - max(0, (V(4)-2)-V(10))
+B2  20 0 V=max(V(4)+1, min(V(3)-1, V(10)))
+R3  20 5 75
+.ends LM741_ELE2611_HZ
+
+.subckt TL082_ELE2611 1 2 3 4 5
+.param gm=7.54m Ilim=3.9m Ccp=300p Rpol=26.5Meg Rcm=1T
+R1  1 2 1T
+Rc1 1 0 {Rcm}
+Rc2 2 0 {Rcm}
+B1  0 10 I=Ilim*tanh(gm*V(1,2)/Ilim)
+R2  10 0 {Rpol}
+C1  10 0 {Ccp}
+B3  10 0 I=max(0, V(10)-(V(3)+2)) - max(0, (V(4)-2)-V(10))
+B2  20 0 V=max(V(4)+1, min(V(3)-1, V(10)))
+R3  20 5 100
+.ends TL082_ELE2611
+
+.subckt LM741_ELE2611_IB 1 2 3 4 5
+.param gm=1.885m Ilim=100u Ccp=300p Rpol=106.1Meg Ib=57n
+R1  1 2 2Meg
+Ib1 1 0 {Ib}
+Ib2 2 0 {Ib}
+B1  0 10 I=Ilim*tanh(gm*V(1,2)/Ilim)
+R2  10 0 {Rpol}
+C1  10 0 {Ccp}
+B3  10 0 I=max(0, V(10)-(V(3)+2)) - max(0, (V(4)-2)-V(10))
+B2  20 0 V=max(V(4)+1, min(V(3)-1, V(10)))
+R3  20 5 75
+.ends LM741_ELE2611_IB
+
+.subckt LM741_ELE2611_PSRR 1 2 3 4 5
+.param gm=1.885m Ilim=100u Ccp=300p Rpol=106.1Meg Vio=-1m kpsrr=17570
+R1  1 2 2Meg
+B1  0 10 I=Ilim*tanh(gm*(V(1,2)-Vio+(V(3)-15)/kpsrr)/Ilim)
+R2  10 0 {Rpol}
+C1  10 0 {Ccp}
+B3  10 0 I=max(0, V(10)-(V(3)+2)) - max(0, (V(4)-2)-V(10))
+B2  20 0 V=max(V(4)+1, min(V(3)-1, V(10)))
+R3  20 5 75
+.ends LM741_ELE2611_PSRR

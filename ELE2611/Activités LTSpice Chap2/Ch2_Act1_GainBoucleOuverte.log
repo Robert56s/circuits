@@ -1,0 +1,15 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\rober\Desktop\circuits\ELE2611\Activités LTSpice Chap2\Ch2_Act1_GainBoucleOuverte.net
+Start Time: Thu Sep  3 20:22:25 2026
+solver = Normal
+Maximum thread count: 6
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.151 seconds.
+
+Files loaded:
+C:\Users\rober\Desktop\circuits\ELE2611\Activités LTSpice Chap2\Ch2_Act1_GainBoucleOuverte.net
+C:\Users\rober\Desktop\circuits\ELE2611\Activités LTSpice Chap2\LM741_ELE2611.lib
+
