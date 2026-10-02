@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\rober\Desktop\circuits\ELE2003\prep2.net
-Start Time: Sun Sep  6 21:25:17 2026
+Start Time: Fri Sep 18 15:47:22 2026
 solver = Normal
 Maximum thread count: 6
 tnom = 27
@@ -13,7 +13,7 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.109 seconds.
+Total elapsed time: 0.164 seconds.
 
 Files loaded:
 C:\Users\rober\Desktop\circuits\ELE2003\prep2.net

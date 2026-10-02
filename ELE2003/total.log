@@ -1,0 +1,25 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\rober\Desktop\circuits\ELE2003\total.net
+Start Time: Fri Oct  2 08:34:38 2026
+solver = Normal
+Maximum thread count: 6
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node n002 is floating.
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 92.591 seconds.
+
+Files loaded:
+C:\Users\rober\Desktop\circuits\ELE2003\total.net
+C:\Users\rober\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\rober\AppData\Local\LTspice\lib\cmp\standard.jft
+C:\Users\rober\Desktop\circuits\model\TL082.MOD
+
