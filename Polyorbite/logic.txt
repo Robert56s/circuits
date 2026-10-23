@@ -1,0 +1,2 @@
+SW1B 5V -> PROG_RESET = 0v : RESET = 12V, PROG_RESET = 5v (ou debranche) : RESET = 5V
+SW1B 0V -> PROG_RESET = 0v : RESET = 0V, PROG_RESET = 5v : RESET = 5V
