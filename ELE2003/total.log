@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\rober\Desktop\circuits\ELE2003\total.net
-Start Time: Mon Oct 19 17:38:34 2026
+Start Time: Mon Oct 26 17:29:31 2026
 solver = Normal
 Maximum thread count: 6
 tnom = 27
@@ -13,11 +13,12 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 103.543 seconds.
+Total elapsed time: 317.196 seconds.
 
 Files loaded:
 C:\Users\rober\Desktop\circuits\ELE2003\total.net
 C:\Users\rober\AppData\Local\LTspice\lib\cmp\standard.dio
 C:\Users\rober\AppData\Local\LTspice\lib\cmp\standard.jft
 C:\Users\rober\Desktop\circuits\model\TL082.MOD
+C:\Users\rober\AppData\Local\LTspice\lib\sub\ADG741.sub
 
