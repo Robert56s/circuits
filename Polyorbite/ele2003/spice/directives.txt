@@ -1,0 +1,25 @@
+=== SIMULATION 1 : LED desactivee (bouton SW701 appuye, relie a VEE) ===
+
+VCC VCC 0 DC 15
+VEE VEE 0 DC -15
+VSON1 son1-in 0 SIN(0 0.5 1k)
+VSON2 son2-in 0 SIN(0 1 2k)
+RLOAD1 son1-out 0 32
+RLOAD2 son2-out 0 32
+RBOUTON VEE led-sw 1m
+.ic V(/son2-modulateur/vcar)=0.1 V(led)=0.1
+.options method=gear
+.tran 0.5u 15m 5m 0.5u
+
+
+=== SIMULATION 2 : LED activee (bouton SW701 relache) ===
+
+VCC VCC 0 DC 15
+VEE VEE 0 DC -15
+VSON1 son1-in 0 SIN(0 0.5 1k)
+VSON2 son2-in 0 SIN(0 1 2k)
+RLOAD1 son1-out 0 32
+RLOAD2 son2-out 0 32
+.ic V(/son2-modulateur/vcar)=0.1 V(led)=0.1
+.options method=gear
+.tran 0.5u 15m 5m 0.5u

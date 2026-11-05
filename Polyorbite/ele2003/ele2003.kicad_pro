@@ -837,6 +837,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -849,13 +857,37 @@
         "uuid": "14474a73-a3fe-47b7-9955-22ccef5f6449"
       }
     ],
-    "used_designators": "R101-164,R511,U101-106,D101-108,#PWR101-150,TP101-104,C101-137,Q101-102,SW101,RV101-103",
+    "used_designators": "#FLG101-103,R101-164,R201-209,R301-314,R401-404,R501-509,R511,R601-611,R701-709,U101-106,U201,U301-302,U401,U501,U601,U701,#PWR101-150,#PWR201-206,#PWR301-311,#PWR401-404,#PWR501-505,#PWR601-607,#PWR701-707,D101-108,D501-502,D601-602,D701-702,TP101-109,TP201,TP601,C101-137,C201-206,C301-313,C401-406,C501-504,C601-603,C701-703,Q101-102,Q601,Q701,SW101,SW701,RV101-103,J101-103",
     "variants": []
   },
   "sheets": [
     [
       "14474a73-a3fe-47b7-9955-22ccef5f6449",
       "Root"
+    ],
+    [
+      "74dfba39-eb6e-4e90-9d5f-09678ba1c489",
+      "son1-filtrePasseBas"
+    ],
+    [
+      "7ef53934-3313-4432-9040-e6a15bcf190e",
+      "son2-filtrePasseBande"
+    ],
+    [
+      "9d769b83-735f-42ba-909c-236ade2add8f",
+      "led-filtrePasseHaut"
+    ],
+    [
+      "e0cee483-6c21-45b6-824f-acee96a641cb",
+      "son2-demodulateur"
+    ],
+    [
+      "1f17bca5-f2fa-4c2b-926a-5bb2d0b1648e",
+      "son2-modulateur"
+    ],
+    [
+      "7cf90e0c-0d84-42dd-9705-8284cbd8df0d",
+      "led-generateur"
     ]
   ],
   "text_variables": {},
