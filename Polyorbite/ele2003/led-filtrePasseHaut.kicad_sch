@@ -1492,7 +1492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 158.75 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -1810,7 +1810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 173.99 75.2348 0)
 			(hide yes)
 			(show_name no)
@@ -1968,7 +1968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 189.23 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -2050,7 +2050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 108.458 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -2208,7 +2208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 118.11 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -2288,7 +2288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 102.87 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -2368,7 +2368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 173.99 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -2448,7 +2448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 133.35 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -2606,7 +2606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 118.11 72.6948 0)
 			(hide yes)
 			(show_name no)
@@ -2688,7 +2688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 164.338 107.95 90)
 			(hide yes)
 			(show_name no)
