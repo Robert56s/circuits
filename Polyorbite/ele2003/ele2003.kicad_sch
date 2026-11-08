@@ -2674,6 +2674,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 50.8) (xy 406.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1daf7b14-1111-4228-93af-bd5db1325384")
+	)
+	(wire
+		(pts
 			(xy 214.63 158.75) (xy 223.52 158.75)
 		)
 		(stroke
@@ -3364,6 +3374,16 @@
 	)
 	(wire
 		(pts
+			(xy 408.94 31.75) (xy 408.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b592a8-d360-44d2-87fa-ba228437c075")
+	)
+	(wire
+		(pts
 			(xy 87.63 69.85) (xy 90.17 69.85)
 		)
 		(stroke
@@ -3381,6 +3401,16 @@
 			(type default)
 		)
 		(uuid "ba2369f1-d5cc-4a1a-a7a9-9ec123fa4a40")
+	)
+	(wire
+		(pts
+			(xy 345.44 31.75) (xy 345.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab3f574-7879-4f85-9392-8a34cc90ee44")
 	)
 	(wire
 		(pts
@@ -3792,6 +3822,30 @@
 			)
 		)
 	)
+	(global_label "ligne"
+		(shape passive)
+		(at 406.4 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbeb03c9-de76-4909-964a-b738f4b9e723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 399.8695 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL084")
 		(at 275.59 35.56 0)
@@ -4117,6 +4171,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 408.94 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "039eb7e7-fc04-40c6-a403-3a71d33956f4")
+		(property "Reference" "TP110"
+			(at 411.48 27.1779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "gnd"
+			(at 411.48 29.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
+			(at 414.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 408.94 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6b8730f-661a-42ed-a8aa-14d9dfc49bd9")
+		)
+		(instances
+			(project "ele2003"
+				(path "/14474a73-a3fe-47b7-9955-22ccef5f6449"
+					(reference "TP110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 332.74 53.34 180)
 		(unit 1)
@@ -4226,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 163.83 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -4384,7 +4517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 83.82 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -4464,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 83.82 98.298 90)
 			(hide yes)
 			(show_name no)
@@ -4622,7 +4755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 105.41 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -5650,7 +5783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 254 163.068 90)
 			(hide yes)
 			(show_name no)
@@ -5886,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "my_footprints:Potentiometer_Bourns_3362P_Vertical"
 			(at 187.96 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6013,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 83.82 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -6378,6 +6511,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 406.4 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "496b9105-d3ff-4be1-9f23-bf5bbb0df224")
+		(property "Reference" "TP112"
+			(at 408.94 46.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "gnd"
+			(at 408.94 48.7679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
+			(at 411.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 406.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9202958f-a478-476b-99f7-7a368dc5f468")
+		)
+		(instances
+			(project "ele2003"
+				(path "/14474a73-a3fe-47b7-9955-22ccef5f6449"
+					(reference "TP112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 396.24 35.56 0)
 		(unit 1)
@@ -6643,7 +6855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 306.07 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -6723,7 +6935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 260.35 107.188 90)
 			(hide yes)
 			(show_name no)
@@ -7045,7 +7257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 215.9 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7124,7 +7336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 401.32 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7519,7 +7731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "my_footprints:Potentiometer_Bourns_3362P_Vertical"
 			(at 284.48 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7648,7 +7860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 354.33 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7727,7 +7939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 388.62 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7966,7 +8178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 339.09 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8006,6 +8218,84 @@
 			(project "ele2003"
 				(path "/14474a73-a3fe-47b7-9955-22ccef5f6449"
 					(reference "TP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 408.94 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85e17157-777d-44e0-99a5-d24dd180e1c2")
+		(property "Reference" "#PWR0126"
+			(at 408.94 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 408.94 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 408.94 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 408.94 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6b666cc-238b-4118-934d-f8e6f11d52d5")
+		)
+		(instances
+			(project "ele2003"
+				(path "/14474a73-a3fe-47b7-9955-22ccef5f6449"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -8916,7 +9206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal"
+		(property "Footprint" "my_footprints:Jack_3.5mm_PJ-307_Horizontal"
 			(at 356.87 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9085,7 +9375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 283.21 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9164,7 +9454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 337.82 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9288,6 +9578,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 345.44 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc1bc5a2-75f5-4891-bd26-67795ec8895e")
+		(property "Reference" "#PWR0127"
+			(at 345.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffddf512-a727-46ca-8b68-74f9fcb8019f")
+		)
+		(instances
+			(project "ele2003"
+				(path "/14474a73-a3fe-47b7-9955-22ccef5f6449"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VEE")
 		(at 273.05 43.18 180)
 		(unit 1)
@@ -9397,7 +9765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "my_footprints:Potentiometer_Bourns_3362P_Vertical"
 			(at 229.87 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9516,7 +9884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal"
+		(property "Footprint" "my_footprints:Jack_3.5mm_PJ-307_Horizontal"
 			(at 232.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9805,6 +10173,85 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 345.44 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e3c56f-cf49-4e47-9b5b-ddb331989371")
+		(property "Reference" "TP111"
+			(at 347.98 27.1779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "gnd"
+			(at 347.98 29.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
+			(at 350.52 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 345.44 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "430bc00e-4074-4fd8-a104-d97aa346c8ba")
+		)
+		(instances
+			(project "ele2003"
+				(path "/14474a73-a3fe-47b7-9955-22ccef5f6449"
+					(reference "TP111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 356.87 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -9837,7 +10284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 361.95 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9916,7 +10363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 377.19 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10149,7 +10596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 205.74 160.528 90)
 			(hide yes)
 			(show_name no)
