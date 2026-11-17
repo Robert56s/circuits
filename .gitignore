@@ -1,2 +1,5 @@
 # Historique local VS Code (extension Local History), a tout niveau du repo
 .history/
+
+# Archives : copies du projet, trop lourdes pour GitHub (limite 100 Mo par fichier)
+*.zip

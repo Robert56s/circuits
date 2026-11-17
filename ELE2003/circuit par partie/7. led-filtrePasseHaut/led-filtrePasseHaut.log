@@ -1,13 +1,11 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\rober\Desktop\circuits\ELE2003\circuit par partie\modulateur\modulateur.net
-Start Time: Fri Nov  6 18:36:05 2026
+Circuit: C:\Users\rober\Desktop\circuits\ELE2003\circuit par partie\7. led-filtrePasseHaut\led-filtrePasseHaut.net
+Start Time: Mon Nov 16 21:12:14 2026
 solver = Normal
 Maximum thread count: 6
 tnom = 27
 temp = 27
 method = trap
-WARNING: Node nc_01 is floating.
-
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
@@ -15,11 +13,9 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.678 seconds.
+Total elapsed time: 0.104 seconds.
 
 Files loaded:
-C:\Users\rober\Desktop\circuits\ELE2003\circuit par partie\modulateur\modulateur.net
-C:\Users\rober\AppData\Local\LTspice\lib\cmp\standard.dio
-C:\Users\rober\AppData\Local\LTspice\lib\cmp\standard.jft
+C:\Users\rober\Desktop\circuits\ELE2003\circuit par partie\7. led-filtrePasseHaut\led-filtrePasseHaut.net
 C:\Users\rober\Desktop\circuits\model\TL082.MOD
 

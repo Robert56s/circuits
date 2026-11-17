@@ -1825,7 +1825,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "22k"
 			(at 180.34 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1905,7 +1905,7 @@
 				)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "330p"
 			(at 90.17 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1985,7 +1985,7 @@
 				)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "47k"
 			(at 180.34 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2065,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "7.5k"
 			(at 110.49 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,7 +2145,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "7.5k"
 			(at 125.73 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2225,7 +2225,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7n"
+		(property "Value" "330p"
 			(at 199.39 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,7 +2305,7 @@
 				)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "47k"
 			(at 165.1 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2620,7 +2620,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "680p"
 			(at 176.53 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2780,7 +2780,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5k"
+		(property "Value" "15k"
 			(at 71.12 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3177,7 +3177,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "4.7n"
 			(at 121.92 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3258,7 +3258,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "5.1k"
 			(at 71.12 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3576,7 +3576,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5k"
+		(property "Value" "15k"
 			(at 55.88 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +3656,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "7.5k"
 			(at 125.73 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7n"
+		(property "Value" "1n"
 			(at 144.78 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
