@@ -3,3 +3,8 @@
 
 # Archives : copies du projet, trop lourdes pour GitHub (limite 100 Mo par fichier)
 *.zip
+
+# Resultats de simulation LTspice : regeneres a chaque simulation
+*.raw
+*.fft
+ELE2003/**/*.log
