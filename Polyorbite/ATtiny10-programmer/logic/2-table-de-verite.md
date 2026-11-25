@@ -17,13 +17,22 @@ CLK et DATA ne changent pas de valeur : ils sont seulement **branchés** (ils pa
 | SEL |  HV | RST | VCC_A | RESET_A | CLK, DATA A | VCC_B | RESET_B | CLK, DATA B | Ce qui se passe |
 |---|---|---|---|---|---|---|---|---|---|
 | 0 | 0 | 0 | 5 V | 0 V | branchés | 0 V | 0 V | coupés | A : programmation normale |
-| 0 | 0 | 1 | 5 V | 5 V | branchés | 0 V | 0 V | coupés | A : la puce tourne |
+| 0 | 0 | 1 | 5 V | 5 V | branchés | 0 V | 0 V  | coupés | A : la puce tourne |
 | 0 | 1 | 0 | 5 V | 12 V | branchés | 0 V | 0 V | coupés | A : programmation 12 V |
-| 0 | 1 | 1 | 5 V | 5 V | branchés | 0 V | 0 V | coupés | A : la puce tourne |
+| 0 | 1 | 1 | 5 V | 12 V | branchés | 0 V | 0 V | coupés | A : programmation 12 V |
 | 1 | 0 | 0 | 0 V | 0 V | coupés | 5 V | 0 V | branchés | B : programmation normale |
 | 1 | 0 | 1 | 0 V | 0 V | coupés | 5 V | 5 V | branchés | B : la puce tourne |
 | 1 | 1 | 0 | 0 V | 0 V | coupés | 5 V | 12 V | branchés | B : programmation 12 V |
-| 1 | 1 | 1 | 0 V | 0 V | coupés | 5 V | 5 V | branchés | B : la puce tourne |
+| 1 | 1 | 1 | 0 V | 0 V | coupés | 5 V | 12 V | branchés | B : programmation 12 V |
+
+| SEL |  HV | !RST | VCC_A | RESET_A | CLK, DATA A | VCC_B | RESET_B | CLK, DATA B | Ce qui se passe |
+|---|---|---|---|---|---|---|---|---|---|
+| 0 | 0 | 0 | 5 V | branchés | branchés | 0 V | coupés | coupés | A : programmation normale |
+| 0 | 0 | 1 | 5 V | branchés | branchés | 0 V | coupés  | coupés | A : la puce tourne |
+| 0 | 1 | X | 5 V | 12 V | branchés | 0 V | coupés  | coupés | A : programmation 12 V |
+| 1 | 0 | 0 | 0 V | coupés | coupés | 5 V | branchés | branchés | B : programmation normale |
+| 1 | 0 | 1 | 0 V | coupés | coupés | 5 V | branchés | branchés | B : la puce tourne |
+| 1 | 1 | X | 0 V | coupés | coupés | 5 V | 12 V | branchés | B : programmation 12 V |
 
 ## Les équations (ce que fait le circuit logique)
 

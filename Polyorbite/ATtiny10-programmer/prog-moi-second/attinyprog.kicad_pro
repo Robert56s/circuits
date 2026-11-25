@@ -701,18 +701,11 @@
       "version": 5
     },
     "net_colors": {
-      "+12V": "rgb(255, 242, 0)",
-      "+5V": "rgb(255, 16, 28)",
-      "/socket and selectors/SWITCH_{A}": "rgb(76, 147, 113)",
-      "/socket and selectors/SWITCH_{B}": "rgb(74, 147, 65)",
-      "ATTINY_IN_PB_{0}": "rgb(195, 29, 255)",
-      "ATTINY_IN_PB_{1}": "rgb(221, 26, 255)",
-      "ATTINY_IN_PB_{2}": "rgb(255, 22, 248)",
-      "ATTINY_IN_~{RESET}": "rgb(255, 19, 185)",
-      "D+": "rgb(56, 253, 0)",
-      "D-": "rgb(0, 90, 0)",
-      "GND": "rgb(22, 0, 255)",
-      "Net-(P201-SHIELD)": "rgb(169, 169, 169)"
+      "+12V": "rgb(0, 255, 44)",
+      "+5V": "rgb(255, 32, 0)",
+      "D+": "rgb(0, 36, 255)",
+      "D-": "rgb(0, 76, 255)",
+      "GND": "rgb(101, 0, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
@@ -837,6 +830,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -849,7 +850,7 @@
         "uuid": "14474a73-a3fe-47b7-9955-22ccef5f6449"
       }
     ],
-    "used_designators": "R303,R305-307,R511,#PWR306,#PWR311,#PWR313,Q302-304",
+    "used_designators": "R511",
     "variants": []
   },
   "sheets": [
